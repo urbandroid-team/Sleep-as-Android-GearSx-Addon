@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="org.tizen.nativecore.config.sbi.gcc45.app.debug.1423703455" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.tizen.nativecore.build.TizenBuiltinSpecsDetector" ref="shared-provider"/>
+		</extension>
+	</configuration>
+	<configuration id="org.tizen.nativecore.config.sbi.gcc45.app.release.2039579419" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.tizen.nativecore.build.TizenBuiltinSpecsDetector" ref="shared-provider"/>
+		</extension>
+	</configuration>
+	<configuration id="org.tizen.nativeide.config.sbi.gcc45.platform.debug.2137690425" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.tizen.nativeplatform.builder.build.TizenPlatformBuiltinSpecsDetector" console="false" env-hash="-686202355344500269" id="org.tizen.nativeplatform.builder.build.TizenPlatformBuiltinSpecsDetector" keep-relative-paths="false" name="Tizen Platform Built-in Compiler Settings" parameter="cat ${FLAGS}" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+	<configuration id="org.tizen.nativeide.config.sbi.gcc45.platform.release.256510861" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.tizen.nativeplatform.builder.build.TizenPlatformBuiltinSpecsDetector" console="false" env-hash="-686202355344500269" id="org.tizen.nativeplatform.builder.build.TizenPlatformBuiltinSpecsDetector" keep-relative-paths="false" name="Tizen Platform Built-in Compiler Settings" parameter="cat ${FLAGS}" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+		</extension>
+	</configuration>
+</project>

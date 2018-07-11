@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="com.urbandroid.sleep" version="1.0.9">
+    <profile name="wearable"/>
+    <ui-application appid="com.urbandroid.sleep.ui" exec="sleepasandroidnativeuiedc" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Sleep</label>
+        <icon>icon.png</icon>
+        <metadata key="master_app_name" value="Sleep As Android - Gear Add-on"/>
+        <metadata key="master_app_packagename" value="com.urbandroid.sleep.addon.generic.samsung"/>
+        <metadata key="master_app_playstore_deeplink" value="market://details?id=com.urbandroid.sleep.addon.generic.samsung"/>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.size.all">true</feature>
+    <feature name="http://tizen.org/feature/screen.shape.band">true</feature>
+</manifest>

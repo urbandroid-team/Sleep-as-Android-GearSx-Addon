@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="com.urbandroid.sleep" version="1.0.9">
+    <profile name="wearable"/>
+    <service-application appid="com.urbandroid.sleep.service" exec="sleepasandroidnativeservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>sleepasandroidnativeservice</label>
+        <icon>sleepasandroidnativeservice.png</icon>
+        <metadata key="accessory-services-location" value="/res/xml/accessoryservices.xml"/>
+        <metadata key="http://tizen.org/metadata/background-category/sensor"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+        <privilege>http://tizen.org/privilege/haptic</privilege>
+        <privilege>http://developer.samsung.com/tizen/privilege/accessoryprotocol</privilege>
+        <privilege>http://tizen.org/privilege/display</privilege>
+        <privilege>http://tizen.org/privilege/power</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/sensor.accelerometer">true</feature>
+</manifest>

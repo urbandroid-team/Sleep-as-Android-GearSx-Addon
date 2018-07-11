@@ -1,0 +1,314 @@
+images {
+   image: "night_bg.png" COMP;
+   image: "day_bg.png" COMP;
+   
+   image: "ic_action_pause.png" COMP;
+   image: "ic_action_play.png" COMP;
+   image: "ic_action_snooze.png" COMP;
+   image: "ic_action_cancel.png" COMP;
+}
+
+externals.external: "elm";
+
+collections {
+   group { name: "icon_pause";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, 35 -10;
+                        }
+                        rel2 {
+                                relative, 0.8 0.8;
+                                offset, 35 -10;
+                        }
+                        image {
+                                normal, "ic_action_pause.png";
+                        }
+                }
+         }
+      }
+   }
+   group { name: "icon_play";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, -35 -10;
+                        }
+                        rel2 {
+                                relative, 0.8 0.8;
+                                offset, -35 -10;
+                        }
+                        image {
+                                normal, "ic_action_play.png";
+                        }
+                }
+         }
+      }
+   }   
+   group { name: "icon_snooze";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, 35 -10;
+                        }
+                        rel2 {
+                                relative, 0.8 0.8;
+                                offset, 35 -10;
+                        }
+                        image {
+                                normal, "ic_action_snooze.png";
+                        }
+                }
+         }
+      }
+   }   
+   group { name: "icon_dismiss";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, -35 -10;
+                        }
+                        rel2 {
+                                relative, 0.8 0.8;
+                                offset, -35 -10;
+                        }
+                        image {
+                                normal, "ic_action_cancel.png";
+                        }
+                }
+         }
+      }
+   }   
+
+
+   group { name: "starting";
+      parts {
+         part { name: "text_CTXV";
+            type: TEXT;
+            scale: 1;
+            description { state: "default" 0.0;
+               color: 250 250 250 255;
+               visible: 1;
+               text {
+                  size: 20;
+                  font: "Tizen:style=regular";
+                  text: "Starting tracking..";
+                  align: 0.5 0.5;
+                  min: 0 0;
+               }
+               align: 0.5 0.5;
+               rel1.relative: 0.15 0.15;
+               rel2.relative: 0.85 0.85;
+            }
+         }
+      }
+   }
+   group { name: "tracking";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, 0 0;
+                        }
+                        rel2 {
+                                relative, 1.0 1.0;
+                                offset, -1 -1;
+                        }
+                        image {
+                                normal, "night_bg.png";
+                        }
+                }
+         }
+         part {
+            name: "text_tracking";
+            type: TEXT;
+            scale: 1;
+            description {
+               state: "default" 0.0;
+               color: 250 250 250 255;
+               visible: 1;
+               text {
+                  size: 20;
+                  font: "Tizen:style=regular";
+                  text: "Tracking";
+                  align: 0.5 0.5;
+                  min: 0 0;
+               }
+               align: 0.5 0.5;
+               rel1.relative: 0.15 0.15;
+               rel2.relative: 0.85 0.85;
+            }
+         }
+         part {
+            name: "button_pause";
+		    type: EXTERNAL;
+		    source: "elm/button";
+		    description { 
+		       state: "default" 0;
+		       align: 0 0;
+               rel1.relative: 0.0 0.7;
+               rel2.relative: 0.49 1.0;
+               params {
+		          string: "style" "default";
+		          string: "icon" "icon_pause";
+		       }
+		    }
+		 }
+         part {
+            name: "button_play";
+		    type: EXTERNAL;
+		    source: "elm/button";
+		    description { 
+		       state: "default" 0;
+		       align: 0 0;
+               rel1.relative: 0.5 0.7;
+               rel2.relative: 1.0 1.0;
+               params {
+		          string: "style" "default";
+		          string: "icon" "icon_play";
+		       }
+		    }
+		 }
+      }      
+      programs {
+	    program {
+          name: "button_pause_clicked";
+		  signal: "clicked";
+		  source: "button_pause";
+		  action: SIGNAL_EMIT "clicked" "pause";
+	   }
+	   program {
+          name: "button_play_clicked";
+		  signal: "clicked";
+		  source: "button_play";
+		  action: SIGNAL_EMIT "clicked" "resume";
+	   }
+     }
+   }
+   group { name: "alarm";
+      parts {
+         part {
+                name,   "background";
+                type,   IMAGE;
+                mouse_events, 0;
+
+                description {
+                        state, "default" 0.0;
+
+                        rel1 {
+                                relative, 0.0 0.0;
+                                offset, 0 0;
+                        }
+                        rel2 {
+                                relative, 1.0 1.0;
+                                offset, -1 -1;
+                        }
+                        image {
+                                normal, "day_bg.png";
+                        }
+                }
+         }
+         part { name: "text_alarm";
+            type: TEXT;
+            scale: 1;
+            description { state: "default" 0.0;
+               color: 250 250 250 255;
+               visible: 1;
+               text {
+                  size: 20;
+                  font: "Tizen:style=regular";
+                  text: "Alarm";
+                  align: 0.5 0.5;
+                  min: 0 0;
+               }
+               align: 0.5 0.5;
+               rel1.relative: 0.15 0.15;
+               rel2.relative: 0.85 0.85;
+            }
+         }
+         part {
+            name: "button_snooze";
+		    type: EXTERNAL;
+		    source: "elm/button";
+		    description { 
+		       state: "default" 0;
+		       align: 0 0;
+               rel1.relative: 0.0 0.7;
+               rel2.relative: 0.49 1.0;
+               params {
+		          string: "style" "default";
+		          string: "icon" "icon_snooze";
+		       }
+		    }
+		 }
+         part {
+            name: "button_dismiss";
+		    type: EXTERNAL;
+		    source: "elm/button";
+		    description { 
+		       state: "default" 0;
+		       align: 0 0;
+               rel1.relative: 0.5 0.7;
+               rel2.relative: 1.0 1.0;
+               params {
+		          string: "style" "default";
+		          string: "icon" "icon_dismiss";
+		       }
+		    }
+		 }         
+      }
+      programs {
+	    program {
+          name: "button_snooze_clicked";
+		  signal: "clicked";
+		  source: "button_snooze";
+		  action: SIGNAL_EMIT "clicked" "snooze";
+	   }
+	   program {
+          name: "button_dismiss_clicked";
+		  signal: "clicked";
+		  source: "button_dismiss";
+		  action: SIGNAL_EMIT "clicked" "dismiss";
+	   }
+     }
+   }
+}
