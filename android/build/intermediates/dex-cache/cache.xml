@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/libs/accessory-v2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ad070307f860377f31726b89bb2d6871328e7004">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/accessory-v2.5.0_6f54c8c8c6643e2acec430aa8549ac9f97bd0b67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/.android/build-cache/d501089a1dfecaf89149f37e6ee58da2f28b5520/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/classes_cad6b8437924fd8946d9af3b21672dd453ea9fc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/.android/build-cache/d501089a1dfecaf89149f37e6ee58da2f28b5520/output/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/internal_impl-21.0.2_4808a9927bbdd54c180b89a7e5c5ca8b69aa6f32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/.android/build-cache/2393bb7f741d85d8111b0d3168ae676c4135a25a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/classes_92dfe4d579fd4a6501984e6f057a601ce1d5b282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/support-annotations-21.0.2_41c414dcc2ad44832eb08a233c1554005621aee7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/libs/sdk-v1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2ce3786b6e9519934c4a54aaaaf39525bf4486c">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/sdk-v1.0.0_a3a2d7cc09304d2076f234cddc2f602a7854c2db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/artaud/.android/build-cache/021d3a187975b577e4a0fd3af9ed63909624440b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9dcb5438d6c64487beca8a473f49700ff5fdc6a5">
+        <dex dex="/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/pre-dexed/debug/classes_665c3746232521acd55884e98522703b59872065.jar" />
+    </item>
+
+</items>

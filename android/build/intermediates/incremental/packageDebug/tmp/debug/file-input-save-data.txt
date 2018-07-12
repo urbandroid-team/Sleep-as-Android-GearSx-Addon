@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Apr 05 15:35:37 CEST 2018
+1.base=/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/transforms/dexMerger/debug/26
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/transforms/dexMerger/debug/27
+1.path=classes.dex

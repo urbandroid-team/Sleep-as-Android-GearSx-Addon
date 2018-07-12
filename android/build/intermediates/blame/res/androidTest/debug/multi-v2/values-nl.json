@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/b598f00a1cc600c3672d012d3f0aec6e/res/values-nl/values.xml",
+                    "from": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,174,282,405,510,617,703,811,931,1042,1146,1245,1360,1473,1576",
+                        "endColumns": "117,107,122,104,106,85,107,119,110,103,98,114,112,102,117",
+                        "endOffsets": "169,277,400,505,612,698,806,926,1037,1141,1240,1355,1468,1571,1689"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,281,404,509,616,702,810,930,1041,1145,1244,1359,1472,1575",
+                        "endColumns": "117,107,122,104,106,85,107,119,110,103,98,114,112,102,117",
+                        "endOffsets": "168,276,399,504,611,697,805,925,1036,1140,1239,1354,1467,1570,1688"
+                    }
+                },
+                {
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/855c07cc985f39d3826ffb55556042d4/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,242,361,428,493,561,611,658,698,738,804,902",
+                        "endColumns": "107,78,118,66,64,67,49,46,39,39,65,97,81",
+                        "endOffsets": "158,237,356,423,488,556,606,653,693,733,799,897,979"
+                    },
+                    "to": {
+                        "startLines": "17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1693,1801,1880,1999,2066,2131,2199,2249,2296,2336,2376,2442,2540",
+                        "endColumns": "107,78,118,66,64,67,49,46,39,39,65,97,81",
+                        "endOffsets": "1796,1875,1994,2061,2126,2194,2244,2291,2331,2371,2437,2535,2617"
+                    }
+                }
+            ]
+        }
+    ]
+}

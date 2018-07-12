@@ -1,0 +1,1054 @@
+[
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_bar_title_item.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_update_checking.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/res/layout/update_checking.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_on_demand_report.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/res/layout/on_demand_report.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_notification_icon.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-xxhdpi/notification_icon.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_logo.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout-v11_abc_screen_content_include.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout-v11/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_simple_dropdown_hint.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_tab_indicator_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_menu_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_bar_view_list_nav_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_mode_bar.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_screen_toolbar.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_button_flat.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/button_flat.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi-v4_default_dialog.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/res/drawable-hdpi-v4/default_dialog.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_switch_thumb_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_notification_icon.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/notification_icon.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_secondary_text_material_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_search_view.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_edit_text_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_search_url_text.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_btn_check_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_secondary_text_material_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi-v4_default_dialog.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/res/drawable-mdpi-v4/default_dialog.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_screen_simple.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_fade_out.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/xml_accessoryservices.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/xml/accessoryservices.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_list_menu_item_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_primary_text_material_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_slide_out_top.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_logo.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_logo.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-mdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-mdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_bg_flat_pressed.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/bg_flat_pressed.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_menu_item_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_slide_in_bottom.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_clear_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ab_share_pack_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_expanded_menu_layout.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_activity_chooser_view_include.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/xml_fileprovider.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/xml/fileprovider.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_bar_up_container.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_ab_share_pack_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_testing_activity.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/layout/testing_activity.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-hdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_slide_out_bottom.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-xhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_item_background_holo_light.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_list_menu_item_radio.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_release_notes.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/res/layout/release_notes.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_slide_in_top.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/anim_abc_fade_in.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_card.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/card.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_bg_flat_normal.xml.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/bg_flat_normal.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_focused_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_divider_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-ldrtl-mdpi_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-ldrtl-mdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_textfield_search_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxxhdpi_abc_ic_menu_moreoverflow_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_icon.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable_abc_cab_background_top_material.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_logo.png.flat",
+        "source": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xhdpi_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-mdpi_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-xxhdpi_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/layout_abc_activity_chooser_view.xml.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/res/merged/release/drawable-hdpi_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png"
+    }
+]

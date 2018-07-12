@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Sleep as Android Gear Companion</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="thank_you">Thank you</string>
+    <string name="install_saa_text">Please install Sleep as Android</string>
+    <string name="install_gear_text">Please also install "Sleep as Android Gear Companion" on your watch</string>
+    <string name="setup_text">Please enable wearable sleep tracking in Sleep as Android</string>
+    <string name="install">Install</string>
+    <string name="setup">Setup</string>
+    <string name="supported_watches_text"><b>Supported watches:</b> Gear 1, Gear 2, Gear S, Gear S2, Gear S3, Gear Sport, Gear Fit 1</string>
+    <string name="unsupported_watches_text"><b>Unsupported watches:</b> Gear Fit 2, Gear Fit 2 Pro</string>
+    <string name="more_info">More info</string>
+
+</resources>

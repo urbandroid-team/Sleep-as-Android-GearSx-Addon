@@ -1,0 +1,220 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+MERGED from [com.android.support:appcompat-v7:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.2.aar/a2981b39100b5ad8a9f5000bbe7fe8f8/AndroidManifest.xml:14:4-17:12
+MERGED from [com.urbandroid:common:1.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:1-107:12
+	package
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:4:5-57
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:6:5-30
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:3:11-69
+	android:versionCode
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:5:5-29
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:9:22-71
+uses-permission#com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:11:5-91
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:11:22-89
+uses-permission#com.samsung.wmanager.ENABLE_NOTIFICATION
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:13:22-77
+uses-permission#com.samsung.WATCH_APP_TYPE.Companion
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:14:22-73
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:15:5-16:90
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:15:22-123
+application
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:18:5-106:19
+MERGED from [com.android.support:appcompat-v7:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.2.aar/a2981b39100b5ad8a9f5000bbe7fe8f8/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.2.aar/a2981b39100b5ad8a9f5000bbe7fe8f8/AndroidManifest.xml:16:5-19
+MERGED from [com.urbandroid:common:1.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/AndroidManifest.xml:11:5-12:19
+MERGED from [com.urbandroid:common:1.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:20:9-45
+	android:allowBackup
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:19:9-35
+activity#com.urbandroid.sleep.addon.samsung.MainActivity
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:38:9-47:20
+	android:launchMode
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:39:13-48
+	android:configChanges
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:40:13-83
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:38:19-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.INFO+category:name:android.intent.category.LAUNCHER
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:41:13-46:29
+action#android.intent.action.MAIN
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:42:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:43:17-75
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:43:27-73
+category#android.intent.category.INFO
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:44:17-72
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:44:27-70
+category#android.intent.category.LAUNCHER
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:45:27-74
+service#com.urbandroid.sleep.addon.samsung.SleepAsAndroidProviderService
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:50:9-51:19
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:50:18-97
+receiver#com.urbandroid.sleep.addon.samsung.SleepAsAndroidReceiver
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:53:9-67:20
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:53:19-91
+intent-filter#action:name:com.urbandroid.sleep.watch.CHECK_CONNECTED+action:name:com.urbandroid.sleep.watch.HINT+action:name:com.urbandroid.sleep.watch.REPORT+action:name:com.urbandroid.sleep.watch.SET_BATCH_SIZE+action:name:com.urbandroid.sleep.watch.SET_PAUSE+action:name:com.urbandroid.sleep.watch.SET_SUSPENDED+action:name:com.urbandroid.sleep.watch.START_ALARM+action:name:com.urbandroid.sleep.watch.START_TRACKING+action:name:com.urbandroid.sleep.watch.STOP_ALARM+action:name:com.urbandroid.sleep.watch.STOP_TRACKING+action:name:com.urbandroid.sleep.watch.UPDATE_ALARM
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:54:13-66:29
+action#com.urbandroid.sleep.watch.START_TRACKING
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:55:17-83
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:55:25-81
+action#com.urbandroid.sleep.watch.STOP_TRACKING
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:56:17-82
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:56:25-80
+action#com.urbandroid.sleep.watch.SET_PAUSE
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:57:25-76
+action#com.urbandroid.sleep.watch.SET_BATCH_SIZE
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:58:17-83
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:58:25-81
+action#com.urbandroid.sleep.watch.SET_SUSPENDED
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:59:25-80
+action#com.urbandroid.sleep.watch.START_ALARM
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:60:25-78
+action#com.urbandroid.sleep.watch.STOP_ALARM
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:61:17-79
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:61:25-77
+action#com.urbandroid.sleep.watch.HINT
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:62:17-73
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:62:25-71
+action#com.urbandroid.sleep.watch.UPDATE_ALARM
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:63:25-79
+action#com.urbandroid.sleep.watch.CHECK_CONNECTED
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:64:17-84
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:64:25-82
+action#com.urbandroid.sleep.watch.REPORT
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:65:17-75
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:65:25-73
+receiver#com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:69:9-74:20
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:69:19-112
+intent-filter#action:name:android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND+action:name:com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:70:13-73:29
+action#android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:71:17-107
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:71:25-105
+action#com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:72:17-100
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:72:25-97
+receiver#com.samsung.android.sdk.accessory.RegisterUponInstallReceiver
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:76:9-81:20
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:76:19-95
+intent-filter#action:name:android.accessory.device.action.REGISTER_AFTER_INSTALL+action:name:com.samsung.accessory.action.REGISTER_AGENT
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:77:13-80:29
+action#android.accessory.device.action.REGISTER_AFTER_INSTALL
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:78:17-96
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:78:25-94
+action#com.samsung.accessory.action.REGISTER_AGENT
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:79:17-86
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:79:25-83
+provider#android.support.v4.content.FileProvider
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:83:9-92:20
+	android:grantUriPermissions
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:87:13-47
+	android:authorities
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:85:13-90
+	android:exported
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:84:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:89:13-91:56
+	android:resource
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:91:17-53
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:90:17-67
+meta-data#AccessoryServicesLocation
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:94:9-96:61
+	android:value
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:96:13-59
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:95:13-53
+meta-data#GearAppType
+ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:97:9-69
+	android:value
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:97:47-66
+	android:name
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml:97:20-46
+uses-sdk
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.2.aar/a2981b39100b5ad8a9f5000bbe7fe8f8/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-v4-21.0.2.aar/a2981b39100b5ad8a9f5000bbe7fe8f8/AndroidManifest.xml:15:5-42
+MERGED from [com.urbandroid:common:1.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.urbandroid:common:1.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.0.aar/aea1f1079c4cd810c42025baae2b1c2f/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
+		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/AndroidManifest.xml
