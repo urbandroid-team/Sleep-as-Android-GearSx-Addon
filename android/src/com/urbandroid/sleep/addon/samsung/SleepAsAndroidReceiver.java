@@ -3,6 +3,8 @@ package com.urbandroid.sleep.addon.samsung;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.support.v4.content.ContextCompat;
+
 import com.urbandroid.common.error.ErrorReporter;
 import com.urbandroid.common.logging.Logger;
 
@@ -36,45 +38,45 @@ public class SleepAsAndroidReceiver extends BroadcastReceiver {
             if (intent.getBooleanExtra(DO_HR_MONITORING, false)) {
                 serviceIntent.putExtra(DO_HR_MONITORING, true);
             }
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(STOP_WATCH_APP)) {
             Logger.logInfo("Received stop watch app.");
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.STOP_COMMAND);
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(SET_PAUSE)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.PAUSE_COMMAND);
             serviceIntent.putExtra("TIMESTAMP", intent.getLongExtra("TIMESTAMP", 0));
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(SET_BATCH_SIZE)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.SET_BATCH_SIZE_COMMAND);
             serviceIntent.putExtra("SIZE", intent.getLongExtra("SIZE", 0));
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(HINT)) {
-//            Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
-//            serviceIntent.setAction(SleepAsAndroidProviderService.HINT_COMMAND);
-//            serviceIntent.putExtra("REPEAT", intent.getIntExtra("REPEAT", 0));
-//            context.startService(serviceIntent);
+            Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
+            serviceIntent.setAction(SleepAsAndroidProviderService.HINT_COMMAND);
+            serviceIntent.putExtra("REPEAT", intent.getIntExtra("REPEAT", 0));
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(UPDATE_ALARM)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.SET_ALARM_COMMAND);
             serviceIntent.putExtra("TIMESTAMP", intent.getLongExtra("TIMESTAMP", 0));
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(START_ALARM)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.putExtra("DELAY", intent.getIntExtra("DELAY", 0));
             serviceIntent.setAction(SleepAsAndroidProviderService.START_ALARM_COMMAND);
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(STOP_ALARM)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.STOP_ALARM_COMMAND);
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(CHECK_CONNECTED)) {
             Intent serviceIntent = new Intent(context, SleepAsAndroidProviderService.class);
             serviceIntent.setAction(SleepAsAndroidProviderService.CHECK_CONNECTED_COMMAND);
-            context.startService(serviceIntent);
+            ContextCompat.startForegroundService(context, serviceIntent);
         } else if (action.equals(REPORT)) {
             Logger.logInfo("Generating on demand report");
             String comment = "No comment";

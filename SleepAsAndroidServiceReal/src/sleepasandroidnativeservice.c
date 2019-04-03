@@ -51,6 +51,9 @@ static gint64 paused_till = 0;
 // What pause state does UI see.
 static bool ui_pause_secs_remaining = 0;
 
+static bool ui_in_background = false;
+static bool ui_paused = false;
+
 static bool hr_supported = false;
 
 typedef struct motion_data {
@@ -120,7 +123,7 @@ static void hr_sensor_event_callback(sensor_h sensor, sensor_event_s *event, voi
 		case SENSOR_HRM:
 			hrm_value = event->values[0];
 			if (hrm_value != 0.0f) {
-				dlog_print(DLOG_INFO, TAG, "HRM: %f" , hrm_value);
+				//dlog_print(DLOG_INFO, TAG, "HRM: %f" , hrm_value);
 			}
 			if (hrm_value > 20.0f && hrm_value < 200.0f) {
 				// We got a real value.. let's sum them till we have 10 samples
@@ -294,16 +297,28 @@ static Eina_Bool update_ui_cb(void *data EINA_UNUSED) {
 	// Update pause state, if required.
 	const int pause_secs_remaining = pause_seconds_remaining();
 //	dlog_print(DLOG_INFO, TAG, "Pause sec: %d", pause_secs_remaining);
+
 	if (pause_secs_remaining != ui_pause_secs_remaining) {
 		ui_pause_secs_remaining = pause_secs_remaining;
 
-		Eina_Strbuf *strbuf = eina_strbuf_new();
-		eina_strbuf_append_printf(strbuf, "pause_state:%d", pause_secs_remaining);
-		char *txt = eina_strbuf_string_steal(strbuf);
-		eina_strbuf_free(strbuf);
-		send_ui_command(txt);
-		free(txt);
+		if (!ui_in_background || ui_pause_secs_remaining == 0 || !ui_paused) {
+			Eina_Strbuf *strbuf = eina_strbuf_new();
+			eina_strbuf_append_printf(strbuf, "pause_state:%d", pause_secs_remaining);
+			char *txt = eina_strbuf_string_steal(strbuf);
+			eina_strbuf_free(strbuf);
+			send_ui_command(txt);
+			free(txt);
+		}
+
+		if (ui_pause_secs_remaining > 0) {
+			ui_paused = true;
+		} else {
+			ui_paused = false;
+		}
 	}
+
+	// TODO update time here...
+	send_ui_command("update_time");
 
 	return ECORE_CALLBACK_RENEW;
 }
@@ -340,7 +355,9 @@ static void stop_tracking() {
 	is_tracking = false;
 	stop_accelerometer();
 	stop_hr();
+//	dlog_print(DLOG_INFO, TAG, "stop_tracking before CPU lock release");
 	device_power_release_lock(POWER_LOCK_CPU);
+//	dlog_print(DLOG_INFO, TAG, "stop_tracking after CPU lock release");
 	ecore_timer_del(send_motion_timer);
 	ecore_timer_del(update_ui_timer);
 	if (hr_timer) {
@@ -406,15 +423,15 @@ static Eina_Bool vibrate_one_sec(void *data) {
 }
 
 static void start_alarm(int alarm_delay) {
-        device_power_request_lock(POWER_LOCK_DISPLAY, 0);
+	device_power_request_lock(POWER_LOCK_DISPLAY, 0);
 	send_ui_command("alarm_started");
 
 	if(device_haptic_open(0, &haptic_handle) != DEVICE_ERROR_NONE) {
 		dlog_print(DLOG_ERROR, TAG, "Failed to get vibrator!");
 	}
 
-	alarm_timer = ecore_timer_add(2, vibrate_one_sec, NULL);
-	if (alarm_delay > 0) {
+	if (alarm_delay >= 0) {
+		alarm_timer = ecore_timer_add(2, vibrate_one_sec, NULL);
 		ecore_timer_delay(alarm_timer, alarm_delay / 1000);
 	}
 }
@@ -478,6 +495,7 @@ static void handle_data_received(unsigned int payload_length, void *buffer) {
 		free(split_data);
 	} else if (eina_str_has_prefix(data, "StopApp")) {
 		stop_tracking();
+		dlog_print(DLOG_INFO, TAG, "Service app trying to exit due to StopApp");
 		stop_ui();
 		service_app_exit();
 	} else if (eina_str_has_prefix(data, "BatchSize")) {
@@ -539,25 +557,32 @@ bool service_app_create(void *data) {
     return true;
 }
 
-
-
 void service_app_terminate(void *data) {
+	dlog_print(DLOG_INFO, TAG, "Service app terminate callback");
 	terminate_sap();
+	service_app_exit();
     return;
 }
 
 void service_app_control(app_control_h app_control, void *data) {
-	dlog_print(DLOG_INFO, LOG_TAG, "Service app control received");
+	dlog_print(DLOG_INFO, TAG, "Service app control received");
 	char *caller_id = NULL;
 	if (app_control_get_caller(app_control, &caller_id) == APP_CONTROL_ERROR_NONE) {
-		dlog_print(DLOG_INFO, LOG_TAG, "Caller: %s", caller_id);
+		dlog_print(DLOG_INFO, TAG, "Caller: %s", caller_id);
 		free(caller_id);
 	}
 
 	char *action_value = NULL;
     if (app_control_get_extra_data(app_control, "app_action", &action_value) == APP_CONTROL_ERROR_NONE) {
-    	dlog_print(DLOG_INFO, LOG_TAG, "App control action: %s", action_value);
-		if (action_value != NULL && strcmp(action_value, "pause") == 0) {
+    	dlog_print(DLOG_INFO, TAG, "App control action: %s", action_value);
+		if (action_value != NULL && strcmp(action_value, "start") == 0) {
+		    if (!send_data("STARTING")) {
+            	dlog_print(DLOG_INFO, TAG, "App control started from WATCH - cannot send STARTING");
+            	set_tracking_started_from_watch(true);
+		    } else {
+            	dlog_print(DLOG_INFO, TAG, "App control started from WATCH - STARTING sent");
+		    }
+		} else if (action_value != NULL && strcmp(action_value, "pause") == 0) {
 			send_data("PAUSE");
 		} else if (action_value != NULL && strcmp(action_value, "resume") == 0) {
 			send_data("RESUME");
@@ -565,12 +590,21 @@ void service_app_control(app_control_h app_control, void *data) {
 			send_data("SNOOZE");
 		} else if (action_value != NULL && strcmp(action_value, "dismiss") == 0) {
 			send_data("DISMISS");
+		} else if (action_value != NULL && strcmp(action_value, "terminate") == 0) {
+			send_data("STOP");
+			service_app_exit();
+		} else if (action_value != NULL && strcmp(action_value, "app_in_background") == 0) {
+			ui_in_background = true;
+			dlog_print(DLOG_INFO, TAG, "ui to background");
+		} else if (action_value != NULL && strcmp(action_value, "app_in_foreground") == 0) {
+			ui_in_background = false;
+			dlog_print(DLOG_INFO, TAG, "ui to foreground");
 		} else {
-			dlog_print(DLOG_INFO, LOG_TAG, "Unsupported action! Doing nothing...");
+			dlog_print(DLOG_INFO, TAG, "Unsupported action! Doing nothing...");
 			free(action_value);
 		}
 	} else {
-		dlog_print(DLOG_ERROR, LOG_TAG, "Failed to get app control attribute");
+		dlog_print(DLOG_ERROR, TAG, "Failed to get app control attribute");
 	}
 }
 

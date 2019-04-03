@@ -2,8 +2,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.urbandroid.sleep.addon.generic.samsung"
-    android:versionCode="26"
-    android:versionName="1.5">
+    android:versionCode="38"
+    android:versionName="1.11">
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
@@ -42,7 +42,7 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.INFO"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
             </intent-filter>
         </activity>
 
@@ -63,6 +63,7 @@
                 <action android:name="com.urbandroid.sleep.watch.UPDATE_ALARM"/>
                 <action android:name="com.urbandroid.sleep.watch.CHECK_CONNECTED"/>
                 <action android:name="com.urbandroid.sleep.watch.REPORT"/>
+                <action android:name="com.urbandroid.sleep.addon.samsung.STOP_SELF"/>
             </intent-filter>
         </receiver>
 

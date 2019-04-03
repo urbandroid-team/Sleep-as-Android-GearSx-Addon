@@ -9,6 +9,16 @@
 #define SLEEP_PROFILE_ID "/system/sleepassamsung"
 #define SLEEP_CHANNELID 1750
 
+static bool tracking_started_from_watch = false;
+
+gboolean get_tracking_started_from_watch() {
+	return tracking_started_from_watch;
+}
+void set_tracking_started_from_watch(gboolean value) {
+	tracking_started_from_watch = value;
+}
+
+
 struct priv {
 	sap_agent_h agent;
 	sap_socket_h socket;
@@ -118,7 +128,12 @@ static void on_service_connection_created(sap_peer_agent_h peer_agent,
 		sprintf(&outstr, "Version %s",&version[0]);
 		send_data(outstr);
 		free(&version[0]);
-		send_data("STARTING");  // TODO: This should be send only when started from watch, right?
+
+		if (tracking_started_from_watch == true) {
+           	dlog_print(DLOG_INFO, TAG, "App control started from WATCH - sending STARTING delayed");
+			send_data("STARTING");  // TODO: This should be send only when started from watch, right?
+			tracking_started_from_watch = false;
+		}
 		// update_ui("Connection Established");
 		break;
 
@@ -385,6 +400,7 @@ gboolean agent_initialize() {
 void terminate_sap() {
 	sap_set_device_status_changed_cb(on_device_status_changed_empty, NULL);
 	sap_agent_destroy(priv_data.agent);
+	tracking_started_from_watch = false;
 }
 
 void initialize_sap(data_received_cb data_received) {

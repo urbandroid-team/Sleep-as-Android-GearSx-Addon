@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="bin%2Fsleepasandroidnativeservice">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>lnJXTelAM6o4cBPbHXhkoBy0nUbhafExF61HTTi5fh0=</DigestValue>
+<DigestValue>jqfSyT+WRRRVMTF7YjPkg5JnQLhvgt7mCPXdRxP3tbU=</DigestValue>
 </Reference>
 <Reference URI="res%2Fxml%2Faccessoryservices.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -16,7 +16,7 @@
 </Reference>
 <Reference URI="tizen-manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7QqSJO7rv9ZUbmpafQt9Leq9olCPJQwUNok2BVymqnM=</DigestValue>
+<DigestValue>vQViXJF1K/rcuLgcDodPb2sf+XcIEdZ4/6BEywZpiSI=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -27,11 +27,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-g8TvuHGMAIVeZL4el2OAAk+TBsWiyR/T33eg6nX4oE0c6GilhTGWljs3CSITjS6PrAvAW3PinKol
-L/BY7RE2n54rZGVeI0ubEnGG4FSKoXKA+RJY90zRdXfAnJlB6Onsu0V/3ktMIJSmyPubDXW3/J5r
-3rAYEDVjoL1/O12TGtmWXV6+14KIsJP3QwiiZWuenaPscJV+iFKKKNYVXtq28/O8oOGhkA3wopPB
-bcwIPUsZTkLu1Qj/hA0tqWEztMGfbfBwzLnmgzDEhcR6r31u7VvVb9CCYDcPr7sShsOWqq/JHFp6
-eiXaPaeSUaT+MWZL4XCDBmqv/FRg6RkeJFwezA==
+UTYzN/Xl208X7EyPdmobRFv+y5T4ZV88v0AHCngbppq3VWSW+83bPY0t698ynskwotYrHxEi39Uf
+bjDWL54Dy0n0Wwd29p8W2L6EbWO8fho4s9BhlCweu+VzQRcsK+hZusNzKuhM6cq5c+zd5yopJDjq
+u7IHEWeH297X8tDSeF2t9xx5ETBYy0VeTW8uE9gRHt9H0nTCUhsPg/04FSwE+Wt1G9Aq57P9iFfe
+e+nkcsxXHJqpg3vhdfZ7gvjHLYtUd8UstuPCZxbMvygpF21Q2jbTNwG6Bsp/StNK/4Zyh9AYbAMd
+qEIb3zvU+URwjSUj7QMrroIkxcq7XGa6q7NeAQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

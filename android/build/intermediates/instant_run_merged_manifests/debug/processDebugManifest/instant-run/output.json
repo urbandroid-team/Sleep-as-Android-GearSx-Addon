@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":37,"versionName":"1.10","enabled":true,"outputFile":"SleepAsSamsung-android-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.urbandroid.sleep.addon.generic.samsung","split":"","minSdkVersion":"14"}}]

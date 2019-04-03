@@ -1,23 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/values-land/values.xml",
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "3,4,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "56,118,191,261,331,395,466",
-                        "endColumns": "61,71,69,69,63,70,67",
-                        "endOffsets": "113,185,256,326,390,461,529"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,259,329,393,464",
-                        "endColumns": "61,71,69,69,63,70,67",
-                        "endOffsets": "112,184,254,324,388,459,527"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]

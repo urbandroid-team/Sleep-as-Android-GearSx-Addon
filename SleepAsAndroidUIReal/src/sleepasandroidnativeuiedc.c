@@ -62,6 +62,21 @@ void _dismiss_cb(void *data, Evas_Object *o, const char *emission, const char *s
 	send_service_command("dismiss");
 }
 
+static void update_time(appdata_s *ad) {
+	time_t raw_time;
+	struct tm* time_info;
+
+	time(&raw_time);
+	time_info = localtime(&raw_time);
+
+	char time[11];
+
+	sprintf(time,"%02i:%02i", time_info->tm_hour, time_info->tm_min);
+
+	edje_object_part_text_set(elm_layout_edje_get(ad->tracking_layout), "text_tracking_time", time);
+	edje_object_part_text_set(elm_layout_edje_get(ad->alarm_layout), "text_alarm_time", time);
+}
+
 static void create_base_gui(appdata_s *ad) {
 	dlog_print(DLOG_INFO, LOG_TAG, "Going to create UI");
 	/* Window */
@@ -87,6 +102,8 @@ static void create_base_gui(appdata_s *ad) {
 	/* Base Layout */
 	ad->starting_layout = create_layout(ad, GRP_MAIN);
 	ad->tracking_layout = create_layout(ad, "tracking");
+	update_time(ad);
+
 	ad->alarm_layout = create_layout(ad, "alarm");
 
 	elm_layout_signal_callback_add(ad->tracking_layout, "clicked", "pause", _pause_cb, NULL);
@@ -137,6 +154,8 @@ static void app_control(app_control_h app_control, void *data) {
 			return;
 		} else if (action_value != NULL && strcmp(action_value, "tracking_started") == 0) {
 			switch_to_layout(app_data.tracking_layout);
+		} else if (action_value != NULL && strcmp(action_value, "update_time") == 0) {
+			update_time(&app_data);
 		} else if (action_value != NULL && eina_str_has_prefix(action_value, "pause_state")) {
 			int pause_secs_remaining = 0;
 			unsigned int num_elements = 0;
@@ -160,6 +179,7 @@ static void app_control(app_control_h app_control, void *data) {
 			}
 		} else if (action_value != NULL && strcmp(action_value, "alarm_started") == 0) {
 			switch_to_layout(app_data.alarm_layout);
+			update_time(&app_data);
 		} else if (action_value != NULL && strcmp(action_value, "alarm_finished") == 0) {
 			switch_to_layout(app_data.tracking_layout);
 		} else {
@@ -173,14 +193,17 @@ static void app_control(app_control_h app_control, void *data) {
 
 static void app_pause(void *data) {
 	/* Take necessary actions when application becomes invisible. */
+	send_service_command("app_in_background");
 }
 
 static void app_resume(void *data) {
 	/* Take necessary actions when application becomes visible. */
+	send_service_command("app_in_foreground");
 }
 
 static void app_terminate(void *data) {
 	/* Release all resources. */
+	send_service_command("terminate");
 }
 
 static void ui_app_lang_changed(app_event_info_h event_info, void *user_data) {
@@ -256,6 +279,8 @@ int main(int argc, char *argv[]) {
 	event_callback.pause = app_pause;
 	event_callback.resume = app_resume;
 	event_callback.app_control = app_control;
+
+
 
 	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_BATTERY], APP_EVENT_LOW_BATTERY, ui_app_low_battery, &app_data);
 	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_MEMORY], APP_EVENT_LOW_MEMORY, ui_app_low_memory, &app_data);

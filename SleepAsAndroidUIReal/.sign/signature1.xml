@@ -4,15 +4,15 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>4oON4fEC1pLtThZTlWfac/vKRaMGM1cX8VwKRmZ/9Ck=</DigestValue>
+<DigestValue>+mOgAqO2y7sjX46LEyHtYx2rqyhR3GkT9DfIUI/Y8Jk=</DigestValue>
 </Reference>
 <Reference URI="bin%2Fsleepasandroidnativeservice">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>DyI6uVBEUsDd6gnDsPKQXjPVGeIdzaauhmwRi9+aXps=</DigestValue>
+<DigestValue>fTQjWiw90uMpyI22tflaUMaufMymi9dCLWb6IE4peTA=</DigestValue>
 </Reference>
 <Reference URI="bin%2Fsleepasandroidnativeuiedc">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>igOdGlJ9VWssms651+1vWPXUT3h/16x4uy7XVeOYeMw=</DigestValue>
+<DigestValue>bjG7EVUigIYKK/r1qItR5+p9BB+fMuyezdo7B4VYffc=</DigestValue>
 </Reference>
 <Reference URI="lib%2Fsleepasandroidnativeuiedc.h">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,19 +20,7 @@
 </Reference>
 <Reference URI="res%2Fedje%2Fsleepasandroidnativeuiedc.edj">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7EDHmI/OfNrzpX75N++GKUIqNcJ39gjfCcFQDlIgpPE=</DigestValue>
-</Reference>
-<Reference URI="res%2Flocale%2Fcs_CZ%2FLC_MESSAGES%2Fservice.mo">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>gESP3/4Vbtah+4YdaV2u4oFm/oHfJqNUM1FPbhANW9I=</DigestValue>
-</Reference>
-<Reference URI="res%2Flocale%2Fen_US%2FLC_MESSAGES%2Fservice.mo">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>JYYu8XhQsN5yGP/VIGU1whhLYxYBk26BYmTAxTqXYjE=</DigestValue>
-</Reference>
-<Reference URI="res%2Flocale%2Fsv_SE%2FLC_MESSAGES%2Fservice.mo">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>BqnNE9oXP53ml7ii5NEY/DhAvI9D/iItcJqODLznj+k=</DigestValue>
+<DigestValue>93EtbMGUU6RPIaEft8V4jrq7SMzpIbcXxtvd9AMqjV8=</DigestValue>
 </Reference>
 <Reference URI="res%2Fxml%2Faccessoryservices.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -48,7 +36,7 @@
 </Reference>
 <Reference URI="tizen-manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>jwP5ms4tOkraJwTYwwWPOqZx7/69ChWaTQdVLVZYwq4=</DigestValue>
+<DigestValue>ehrfqcHVhwbSYIdwVdBAQYWvB2BaINdmQsTtF9VsQtw=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -59,11 +47,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-nJ2KljWPuStTk9uq/fgX3M+88KGHDoGPhHyyKEUrThQCsqfeCEVvH/HU9vpfYvAydE8vfyOuCK65
-SrVRhJZ9NEQoFdtChQY1rGE3mezZg+BH4xY2rppL41fgO3P3jnHB5WeoQFKg14gXcrtR71guqFen
-lNkbQ6Bu+BVzBxjjW13T91fGDqAvfSWIL2Ar0xe9Xsj92DC8l5SQT0t1zj9FfEsN8usCkgTBIJTO
-y69lqFdecekFBIa3xHunz+CffUVUYcWNiI+6J2TXDyH9yKuyuNBtZfPP8xBlatv0B7lhvOuuPtiJ
-frBkKKX3Yp2asPwtSFou9BYDtTOAhgq+6LzPGQ==
+N6QiRNkuZNuomN7ZA+ADYjBW0NV2SFPjMheKZa70a2UKe/xzjasybi3Pbi81qd6k7eb6sHBEgXVk
+ukeqOIPIwmfHKKq62bGFbSSCRDE7zhILVdstsfwDx1bi26mpTX0BpAXfaVyckmlb5AoLQgqEznbk
+HAkg21Pp1MHuVCT2ZUQyB69hjwDtgqMBCt4L9Q1f2JjBf4aWqSCc+EJD4AJUs1BDUAlo4jqTmM8c
+gPCV2w6TUeSjeHEfczasAvou+S0Y56Rq9si2B6ry6h4KcQO6GXtKiMPakQi/uy6VdVxyyXcXEx5l
+83DILqvTm+KUROr8wbPekA/m+y9no1vprFqYug==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

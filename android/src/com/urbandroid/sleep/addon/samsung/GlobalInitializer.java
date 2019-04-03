@@ -24,6 +24,9 @@ public class GlobalInitializer {
                         withLockupDatection(false).build();
 
         ErrorReporter.initialize(context, configuration);
+
+        Notifications.createChannels(context);
+
         Logger.logInfo("Global initialization done");
     }
 }

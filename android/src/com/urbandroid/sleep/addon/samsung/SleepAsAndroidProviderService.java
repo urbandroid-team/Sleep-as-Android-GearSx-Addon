@@ -1,24 +1,16 @@
 package com.urbandroid.sleep.addon.samsung;
 
-import java.io.IOException;
-import java.lang.Override;
-import java.lang.Runnable;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
-
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.support.v4.app.NotificationCompat;
 import android.os.Binder;
+import android.os.Build;
+import android.os.Handler;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 import com.samsung.android.sdk.SsdkUnsupportedException;
 import com.samsung.android.sdk.accessory.SA;
 import com.samsung.android.sdk.accessory.SAAgent;
@@ -27,10 +19,17 @@ import com.samsung.android.sdk.accessory.SASocket;
 import com.urbandroid.common.logging.Logger;
 import com.urbandroid.common.version.ApplicationVersionExtractor;
 import com.urbandroid.common.version.ApplicationVersionInfo;
-
 import com.urbandroid.sleep.addon.generic.samsung.R;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
+
 import static android.graphics.Color.rgb;
+import static com.urbandroid.sleep.addon.samsung.Notifications.NOTIFICATION_CHANNEL_ID_TRACKING;
 
 public class SleepAsAndroidProviderService extends SAAgent {
     // From watch
@@ -57,20 +56,22 @@ public class SleepAsAndroidProviderService extends SAAgent {
     public final static String CHECK_CONNECTED_COMMAND = "com.urbandroid.sleep.samsung.CHECK_CONNECTED_COMMAND";
 
     private final static String INTERNAL_LAST_ACTIVITY_CHECK = "internatl-LAST_ACTIVITY_CHECK";
+    final static String ACTION_STOP_SELF = "com.urbandroid.sleep.addon.samsung.STOP_SELF";
+    final static String STOP_SLEEP_TRACK_ACTION = "com.urbandroid.sleep.alarmclock.STOP_SLEEP_TRACK";
 
     public static final String TAG = "SleepAsSamsung";
 
-	public static final int SLEEP_AS_SAMSUNG_CHANNEL_ID = 1750;
+    public static final int SLEEP_AS_SAMSUNG_CHANNEL_ID = 1750;
 
     // If we ever receive batch with data length not divisible by 3 we know we are running against old version of client
     // -> Do not divide and take first value only.
     private static boolean runningInCompatibilityMode = false;
 
-	HashMap<Integer, SleepAsSamsungProviderConnection> mConnectionsMap = null;
+    HashMap<Integer, SleepAsSamsungProviderConnection> mConnectionsMap = null;
 
     public static Map<String, SAPeerAgent> connectedAgents = new HashMap<String, SAPeerAgent>();
 
-	private final IBinder mBinder = new LocalBinder();
+    private final IBinder mBinder = new LocalBinder();
 
     // This is set when we receive a command from watch and we need to connect. We getAggregate it on reply from findPeerAgants().
     // It is used to keep stat across 2 independent async calls..
@@ -91,32 +92,32 @@ public class SleepAsAndroidProviderService extends SAAgent {
 
     private Thread commandThread;
 
-	public class LocalBinder extends Binder {
-		public SleepAsAndroidProviderService getService() {
-			return SleepAsAndroidProviderService.this;
-		}
-	}
+    public class LocalBinder extends Binder {
+        public SleepAsAndroidProviderService getService() {
+            return SleepAsAndroidProviderService.this;
+        }
+    }
 
-	public SleepAsAndroidProviderService() {
-		super(TAG, SleepAsSamsungProviderConnection.class);
-	}
+    public SleepAsAndroidProviderService() {
+        super(TAG, SleepAsSamsungProviderConnection.class);
+    }
 
-	public class SleepAsSamsungProviderConnection extends SASocket {
-		private int mConnectionId;
+    public class SleepAsSamsungProviderConnection extends SASocket {
+        private int mConnectionId;
 
-		public SleepAsSamsungProviderConnection() {
-			super(SleepAsSamsungProviderConnection.class.getName());
-		}
+        public SleepAsSamsungProviderConnection() {
+            super(SleepAsSamsungProviderConnection.class.getName());
+        }
 
-		@Override
-		public void onError(int channelId, String errorString, int error) {
-			Logger.logSevere("Connection is not alive ERROR: " + errorString + "  "
-					+ error);
-		}
+        @Override
+        public void onError(int channelId, String errorString, int error) {
+            Logger.logSevere("Connection is not alive ERROR: " + errorString + "  "
+                    + error);
+        }
 
-		@Override
-		public void onReceive(int channelId, byte[] data) {
-			// Logger.logDebug("onReceive");
+        @Override
+        public void onReceive(int channelId, byte[] data) {
+            // Logger.logDebug("onReceive");
 
             String receivedData = new String(data);
             Logger.logInfo("Received from watch: " + receivedData);
@@ -160,6 +161,7 @@ public class SleepAsAndroidProviderService extends SAAgent {
                     dataUpdateIntent.putExtra("AVG_DATA", avgFloatValues);
                 }
 
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
             } else if (receivedData.startsWith("NEW_ACTI_DATA")) {
                 Intent dataUpdateIntent = new Intent(NEW_DATA_ACTION_NAME);
@@ -185,6 +187,7 @@ public class SleepAsAndroidProviderService extends SAAgent {
                 dataUpdateIntent.putExtra("AVG_DATA", avgFloatValues);
                 dataUpdateIntent.putExtra("MAX_RAW_DATA", newMaxFloatValues);
 
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
             } else if (receivedData.startsWith("HR_DATA")) {
                 receivedData = receivedData.substring(7);
@@ -197,73 +200,67 @@ public class SleepAsAndroidProviderService extends SAAgent {
 
                 Intent dataUpdateIntent = new Intent(NEW_HR_DATA_ACTION_NAME);
                 dataUpdateIntent.putExtra("DATA", floatValues);
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
             } else if (receivedData.startsWith("RLOG")) {
                 String logMessage = receivedData.substring(4);
                 Logger.logInfo("WatchMessage: " + logMessage);
             } else if (receivedData.equals("SNOOZE")) {
                 Intent dataUpdateIntent = new Intent(SNOOZE_ACTION_NAME);
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
             } else if (receivedData.equals("DISMISS")) {
                 Intent dataUpdateIntent = new Intent(DISMISS_ACTION_NAME);
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
             } else if (receivedData.equals("PAUSE")) {
                 Intent dataUpdateIntent = new Intent(PAUSE_ACTION_NAME);
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
-                Logger.logDebug("Broadcasting com.urbandroid.sleep.watch.PAUSE_FROM_WATCH");
+                Logger.logDebug("Broadcasting " + PAUSE_ACTION_NAME);
             } else if (receivedData.equals("RESUME")) {
                 Intent dataUpdateIntent = new Intent(RESUME_ACTION_NAME);
+                dataUpdateIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(dataUpdateIntent);
+            } else if (receivedData.equals("STOP")) {
+                Intent stopIntent = new Intent(STOP_SLEEP_TRACK_ACTION);
+                stopIntent.setPackage(MainActivity.MASTER_PACKAGE);
+                sendBroadcast(stopIntent);
+                cancelRestartingIntent();
+                pendingStop = true;
+                stopSelf();
             } else if (receivedData.equals("STARTING")) {
+                h.removeCallbacks(stopSelfRunnable);
+
                 Intent startIntent = new Intent(STARTED_ON_WATCH_NAME);
+                startIntent.setPackage(MainActivity.MASTER_PACKAGE);
                 sendBroadcast(startIntent);
 
-
-                // TODO: This is temporary workaround for restarted app -> this will start tracking
-                // again when watch side is restarted.
-                // THIS NEVER WORKED ??
-//                scheduleAsyncStartCommand();
             }
+        }
 
-            /*
-			String strToUpdateUI = new String(data);
-			final String message = strToUpdateUI.concat("Blabla");
-			final SleepAsSamsungProviderConnection uHandler = mConnectionsMap.get(Integer
-					.parseInt(String.valueOf(mConnectionId)));
-			if(uHandler == null){
-				Logger.logSevere("Error, can not get HelloAccessoryProviderConnection handler");
-				return;
-			}
-			new Thread(new Runnable() {
-				public void run() {
-					try {
-						uHandler.send(SLEEP_AS_SAMSUNG_CHANNEL_ID, message.getBytes());
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
-				}
-			}).start();
-			*/
-		}
-
-		@Override
-		protected void onServiceConnectionLost(int errorCode) {
+        @Override
+        protected void onServiceConnectionLost(int errorCode) {
             Logger.logSevere("onServiceConectionLost  for peer = " + mConnectionId
                     + "error code =" + errorCode);
 
 			if (mConnectionsMap != null) {
 				mConnectionsMap.remove(mConnectionId);
-                if (mConnectionsMap.isEmpty() && lastStopRequest != 0 && System.currentTimeMillis() < lastStopRequest + 60 * 1000) {
-                    SleepAsAndroidProviderService.this.stopSelf();
-                }
+//                if (mConnectionsMap.isEmpty() && lastStopRequest != 0 && System.currentTimeMillis() < lastStopRequest + 60 * 1000) {
+//                    SleepAsAndroidProviderService.this.stopSelf();
+//                }
 			}
-		}
-	}
+        }
+    }
+
+    private Handler h;
 
     @Override
     public void onCreate() {
         super.onCreate();
         GlobalInitializer.initializeIfRequired(this);
+
+        h = new Handler();
 
         if (commandThread == null) {
             commandThread = new Thread(new CommandExecutionRunnable());
@@ -274,21 +271,23 @@ public class SleepAsAndroidProviderService extends SAAgent {
 
         SA mAccessory = new SA();
         try {
-        	mAccessory.initialize(this);
+            mAccessory.initialize(this);
         } catch (SsdkUnsupportedException e) {
-        	// Error Handling
+            // Error Handling
         } catch (Exception e1) {
             Logger.logSevere("Cannot initialize Accessory package.");
             e1.printStackTrace();
-			/*
-			 * Your application can not use Accessory package of Samsung
-			 * Mobile SDK. You application should work smoothly without using
-			 * this SDK, or you may want to notify user and close your app
-			 * gracefully (release resources, stop Service threads, close UI
-			 * thread, etc.)
-			 */
+            /*
+             * Your application can not use Accessory package of Samsung
+             * Mobile SDK. You application should work smoothly without using
+             * this SDK, or you may want to notify user and close your app
+             * gracefully (release resources, stop Service threads, close UI
+             * thread, etc.)
+             */
             stopSelf();
         }
+
+
     }
 
     private Intent createConfirmConnectedIntent() {
@@ -299,16 +298,25 @@ public class SleepAsAndroidProviderService extends SAAgent {
 
     private int ONGOING_NOTIFICATION_ID = 1238888888;
 
-    private void makeForeground() {
-        Intent startIntent = new Intent("Ignored");
-        PendingIntent contentIntent = PendingIntent.getActivity(this, ONGOING_NOTIFICATION_ID, startIntent, 0);
+    private void startForeground() {
+        Intent stopIntent = new Intent(this, SleepAsAndroidProviderService.class);
+        stopIntent.setAction(ACTION_STOP_SELF);
 
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
+        PendingIntent contentIntent = PendingIntent.getService(this, ONGOING_NOTIFICATION_ID, stopIntent, 0);
+
+        if (Build.VERSION.SDK_INT >= 26) {
+            contentIntent = PendingIntent.getForegroundService(this, 150, stopIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        }
+
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID_TRACKING)
                 .setContentIntent(contentIntent)
-                .setColor(rgb(127,163,29))
-                .setContentTitle("Samsung Gear tracking")
-                .setContentText("Samsung Gear tracking")
-                .setPriority(Notification.PRIORITY_MIN);
+                .setColor(getResources().getColor(R.color.tint_dark))
+                .setContentText("Sleep tracking with Samsung Gear. Tap to stop.")
+                .addAction(R.drawable.ic_action_stop, "Stop", contentIntent);
+
+        if (Build.VERSION.SDK_INT < 24) {
+            notificationBuilder.setContentTitle("Samsung Gear tracking");
+        }
 
         notificationBuilder.setSmallIcon(R.drawable.notification_icon);
 
@@ -317,12 +325,20 @@ public class SleepAsAndroidProviderService extends SAAgent {
 
     @Override
     public int onStartCommand(final Intent intent, int i, int i2) {
+        startForeground();
+
+        if (intent != null && intent.getAction() != null && ACTION_STOP_SELF.equals(intent.getAction())) {
+            cancelRestartingIntent();
+            pendingStop = true;
+            stopSelf();
+            return START_NOT_STICKY;
+        }
+
         if (intent != null && intent.getAction() != null && intent.getAction().equals(START_COMMAND)) {
             doHrMonitoring = intent.getBooleanExtra(SleepAsAndroidReceiver.DO_HR_MONITORING, false);
             Logger.logInfo("Start command received. HrMonitoring: " + doHrMonitoring);
             scheduleAsyncStartCommand();
             scheduleRestartingIntent();
-            makeForeground();
             pendingStop = false;
             return START_STICKY;
         }
@@ -332,15 +348,22 @@ public class SleepAsAndroidProviderService extends SAAgent {
             cancelRestartingIntent();
             pendingStop = true;
             lastStopRequest = System.currentTimeMillis();
-            Runnable doAfterward = new Runnable() {
+
+            scheduleAsyncCommand("StopApp", 100, new Runnable() {
                 @Override
                 public void run() {
                     pendingStop = false;
-//                    stopSelf();
+                    h.removeCallbacks(stopSelfRunnable);
+                    h.postDelayed(stopSelfRunnable, 5000);
                 }
-            };
-
-            scheduleAsyncCommand("StopApp", 100, doAfterward, doAfterward);
+            }, new Runnable() {
+                @Override
+                public void run() {
+                    pendingStop = false;
+                    h.removeCallbacks(stopSelfRunnable);
+                    h.postDelayed(stopSelfRunnable, 10 * 60000);
+                }
+            });
 
             return START_STICKY;
         }
@@ -396,7 +419,9 @@ public class SleepAsAndroidProviderService extends SAAgent {
             // We need to start app only if peer app is not running (i.e. we have no connection to it).
             if (mConnectionsMap != null && !mConnectionsMap.isEmpty()) {
                 Logger.logInfo("Connected already.");
-                sendBroadcast(new Intent("com.urbandroid.sleep.watch.CONFIRM_CONNECTED"));
+                Intent confirmationIntent = new Intent("com.urbandroid.sleep.watch.CONFIRM_CONNECTED");
+                confirmationIntent.setPackage(MainActivity.MASTER_PACKAGE);
+                sendBroadcast(confirmationIntent);
             } else {
                 Logger.logInfo("Initiating async connectivity check.");
                 connectivityCheck = true;
@@ -420,8 +445,17 @@ public class SleepAsAndroidProviderService extends SAAgent {
         return super.onStartCommand(intent, i, i2);
     }
 
+    private Runnable stopSelfRunnable = new Runnable() {
+        @Override
+        public void run() {
+            stopSelf();
+        }
+    };
+
+
     private PendingIntent createRestartIntent() {
-        return PendingIntent.getBroadcast(this, 0, new Intent(INTERNAL_LAST_ACTIVITY_CHECK), PendingIntent.FLAG_UPDATE_CURRENT);
+        Intent i = new Intent(INTERNAL_LAST_ACTIVITY_CHECK);
+        return PendingIntent.getBroadcast(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
 
@@ -467,62 +501,80 @@ public class SleepAsAndroidProviderService extends SAAgent {
     }
 
     @Override
-    protected void onServiceConnectionRequested(SAPeerAgent peerAgent) { 
+    protected void onServiceConnectionRequested(SAPeerAgent peerAgent) {
         acceptServiceConnectionRequest(peerAgent);
     }
 
     @Override
-    protected void onPeerAgentUpdated(SAPeerAgent peerAgent, int result) {
-        super.onPeerAgentUpdated(peerAgent, result);
+    protected void onPeerAgentsUpdated(SAPeerAgent[] peerAgents, int result) {
+        super.onPeerAgentsUpdated(peerAgents, result);
 
-        if (result == PEER_AGENT_FOUND && result == PEER_AGENT_AVAILABLE) {
-            connectedAgents.put(peerAgent.getPeerId(), peerAgent);
-        } else {
-            connectedAgents.remove(peerAgent.getPeerId());
+        if (peerAgents == null) {
+            return;
         }
-    }
 
-    @Override
-	protected void onFindPeerAgentResponse(SAPeerAgent peerAgent, int result) {
-        if (result == PEER_AGENT_FOUND) {
-            Logger.logInfo("Peer agent found.");
-            // Check still no connection + start was requested-> Try to connect peer
-            if ((mConnectionsMap == null || mConnectionsMap.isEmpty()) && connectRequested) {
-                Logger.logInfo("Requesting service connection.");
-                requestServiceConnection(peerAgent);
-            }
-
-            connectedAgents.put(peerAgent.getPeerId(), peerAgent);
-
-            if (connectivityCheck) {
-                Logger.logInfo("Confirming connectivity.");
-                sendBroadcast(new Intent("com.urbandroid.sleep.watch.CONFIRM_CONNECTED"));
-            }
-        } else {
-            Logger.logInfo("Peer agent not found: " + result);
-            if (peerAgent != null && peerAgent.getPeerId() != null) {
+        for (SAPeerAgent peerAgent : peerAgents) {
+            if (result == PEER_AGENT_FOUND || result == PEER_AGENT_AVAILABLE) {
+                connectedAgents.put(peerAgent.getPeerId(), peerAgent);
+            } else {
                 connectedAgents.remove(peerAgent.getPeerId());
             }
         }
 
+    }
+
+    @Override
+    protected void onFindPeerAgentsResponse(SAPeerAgent[] peerAgents, int result) {
+        super.onFindPeerAgentsResponse(peerAgents, result);
+
+        if (peerAgents == null) {
+            return;
+        }
+
+        for (SAPeerAgent peerAgent : peerAgents) {
+
+            if (result == PEER_AGENT_FOUND) {
+                Logger.logInfo("Peer agent found.");
+                // Check still no connection + start was requested-> Try to connect peer
+                if ((mConnectionsMap == null || mConnectionsMap.isEmpty()) && connectRequested) {
+                    Logger.logInfo("Requesting service connection.");
+                    requestServiceConnection(peerAgent);
+                }
+
+                connectedAgents.put(peerAgent.getPeerId(), peerAgent);
+
+                if (connectivityCheck) {
+                    Logger.logInfo("Confirming connectivity.");
+                    sendBroadcast(new Intent("com.urbandroid.sleep.watch.CONFIRM_CONNECTED")
+                            .setPackage(MainActivity.MASTER_PACKAGE));
+                }
+            } else {
+                Logger.logInfo("Peer agent not found: " + result);
+                if (peerAgent != null && peerAgent.getPeerId() != null) {
+                    connectedAgents.remove(peerAgent.getPeerId());
+                }
+            }
+        }
+
+
         connectRequested = false;
         connectivityCheck = false;
-	}
+    }
 
 
-	@Override
-	protected void onServiceConnectionResponse(SAPeerAgent peerAgent, SASocket thisConnection, int result) {
-		if (result == CONNECTION_SUCCESS) {
-			if (thisConnection != null) {
+    @Override
+    protected void onServiceConnectionResponse(SAPeerAgent peerAgent, SASocket thisConnection, int result) {
+        if (result == CONNECTION_SUCCESS) {
+            if (thisConnection != null) {
                 SleepAsSamsungProviderConnection myConnection = (SleepAsSamsungProviderConnection) thisConnection;
 
-				if (mConnectionsMap == null) {
-					mConnectionsMap = new HashMap<Integer, SleepAsSamsungProviderConnection>();
-				}
+                if (mConnectionsMap == null) {
+                    mConnectionsMap = new HashMap<Integer, SleepAsSamsungProviderConnection>();
+                }
 
-				myConnection.mConnectionId = (int) (System.currentTimeMillis() & 255);
+                myConnection.mConnectionId = (int) (System.currentTimeMillis() & 255);
 
-				Logger.logDebug("onServiceConnection connectionID = " + myConnection.mConnectionId);
+                Logger.logDebug("onServiceConnection connectionID = " + myConnection.mConnectionId);
 
                 mConnectionsMap.put(myConnection.mConnectionId, myConnection);
 
@@ -530,20 +582,20 @@ public class SleepAsAndroidProviderService extends SAAgent {
                 if (versionInfo.getVersionCode() < 862) {
                     scheduleAsyncCommand("OLD_OR_MISSING");
                 }
-			} else {
-				Logger.logSevere("SASocket object is null");
-			}
-		} else if (result == CONNECTION_ALREADY_EXIST) {
-			Logger.logSevere("onServiceConnectionResponse, CONNECTION_ALREADY_EXIST");
-		} else {
+            } else {
+                Logger.logSevere("SASocket object is null");
+            }
+        } else if (result == CONNECTION_ALREADY_EXIST) {
+            Logger.logSevere("onServiceConnectionResponse, CONNECTION_ALREADY_EXIST");
+        } else {
             Logger.logSevere("onServiceConnectionResponse result error =" + result);
-		}
-	}
+        }
+    }
 
-	@Override
-	public IBinder onBind(Intent arg0) {
-		return mBinder;
-	}
+    @Override
+    public IBinder onBind(Intent arg0) {
+        return mBinder;
+    }
 
     @Override
     public void onDestroy() {
@@ -599,7 +651,7 @@ public class SleepAsAndroidProviderService extends SAAgent {
                         continue;
                     }
 
-                    for (final SleepAsSamsungProviderConnection connection : mConnectionsMap.values()) {
+                    for (final SleepAsSamsungProviderConnection connection : new HashMap<Integer, SleepAsSamsungProviderConnection>(mConnectionsMap).values()) {
                         try {
                             Logger.logInfo("Sending command: " + command.getCommand());
                             connection.send(SLEEP_AS_SAMSUNG_CHANNEL_ID, command.getCommand().getBytes());

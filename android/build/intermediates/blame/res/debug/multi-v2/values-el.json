@@ -1,23 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
+            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
-                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/values-el/values.xml",
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/res/values-el/values-el.xml",
                     "from": {
-                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56,174,282,405,516,633,718,823,949,1060,1170,1272,1383,1492,1600",
-                        "endColumns": "117,107,122,110,116,84,104,125,110,109,101,110,108,107,122",
-                        "endOffsets": "169,277,400,511,628,713,818,944,1055,1165,1267,1378,1487,1595,1718"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,334,451,536,641,767,855,941,1032,1125,1221,1315,1416,1509,1604,1701,1792,1883,1968,2079,2189,2291,2402,2511,2619,2779,2879",
+                        "endColumns": "117,110,116,84,104,125,87,85,90,92,95,93,100,92,94,96,90,90,84,110,109,101,110,108,107,159,99,84",
+                        "endOffsets": "218,329,446,531,636,762,850,936,1027,1120,1216,1310,1411,1504,1599,1696,1787,1878,1963,2074,2184,2286,2397,2506,2614,2774,2874,2959"
+                    }
+                },
+                {
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/res/values-el/values-el.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,173,281,404,515,632,717,822,948,1059,1169,1271,1382,1491,1599",
-                        "endColumns": "117,107,122,110,116,84,104,125,110,109,101,110,108,107,122",
-                        "endOffsets": "168,276,399,510,627,712,817,943,1054,1164,1266,1377,1486,1594,1717"
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2964",
+                        "endColumns": "100",
+                        "endOffsets": "3060"
                     }
                 }
             ]

@@ -13,6 +13,7 @@
 		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -29,11 +30,10 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>org.tizen.nativecore.apichecker.apicheckernature</nature>
-		<nature>org.tizen.nativeplatform.tizenPlatformNature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1523449350474</id>
+			<id>1553798875463</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -42,7 +42,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1523449350483</id>
+			<id>1553798875471</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

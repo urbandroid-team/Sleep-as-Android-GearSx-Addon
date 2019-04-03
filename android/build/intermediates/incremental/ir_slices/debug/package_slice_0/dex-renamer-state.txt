@@ -1,4 +1,4 @@
-#Thu Apr 05 15:35:36 CEST 2018
-base.0=/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/transforms/dexMerger/debug/15
+#Tue Jan 08 15:29:47 CET 2019
+base.0=/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

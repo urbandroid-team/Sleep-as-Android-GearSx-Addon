@@ -3,20 +3,9 @@ package com.urbandroid.sleep.addon.samsung;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.preference.PreferenceManager;
-import android.text.Html;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.TextView;
-import android.widget.Toast;
-import com.urbandroid.common.logging.Logger;
 
 import com.urbandroid.sleep.addon.generic.samsung.R;
 
@@ -24,7 +13,7 @@ import com.urbandroid.sleep.addon.generic.samsung.R;
 
 public class MainActivity extends Activity {
 
-    private static final String PACKAGE = "com.urbandroid.sleep";
+    public static final String MASTER_PACKAGE = "com.urbandroid.sleep";
 
     private boolean installed = true;
 
@@ -39,7 +28,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         try {
-            this.getPackageManager().getApplicationInfo(PACKAGE, 0);
+            this.getPackageManager().getApplicationInfo(MASTER_PACKAGE, 0);
         } catch (PackageManager.NameNotFoundException e) {
             installed = false;
         }
@@ -48,13 +37,28 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startGearManager();
+//                String url = "samsungapps://ProductDetail/com.urbandroid.sleep";
+//                Intent i = new Intent(Intent.ACTION_VIEW);
+//                i.setData(Uri.parse(url));
+//                startActivity(i);
             }
         });
 
-        findViewById(R.id.gear_fit2_more_info).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.supported_wearables_more_info).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "https://sleep.urbandroid.org/will-sleep-as-android-ever-support-gear-fit-2/";
+                String url = "https://sleep.urbandroid.org/documentation/integration/wearable/#supported-devices";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        findViewById(R.id.install_gearfit2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://sleep.urbandroid.org/sleep-%E2%9D%A4-gear-fit-2/#how-to-install";
+//                String url = "samsungapps://ProductDetail/com.urbandroid.sleep.gearfit";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -82,12 +86,12 @@ public class MainActivity extends Activity {
     private void startSetup() {
         try {
             Intent i = new Intent();
-            i.setClassName(PACKAGE, PACKAGE+".alarmclock.settings.SmartwatchSettingsActivity");
+            i.setClassName(MASTER_PACKAGE, MASTER_PACKAGE +".alarmclock.settings.SmartwatchSettingsActivity");
             startActivity(i);
         } catch (Exception e) {
             try {
                 Intent i = new Intent();
-                i.setClassName(PACKAGE, PACKAGE+".alarmclock.AlarmClock");
+                i.setClassName(MASTER_PACKAGE, MASTER_PACKAGE +".alarmclock.AlarmClock");
                 startActivity(i);
             } catch (Exception ee) {
                 finish();
@@ -97,7 +101,7 @@ public class MainActivity extends Activity {
 
     private void startMarket() {
         try {
-            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id="+PACKAGE));
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id="+ MASTER_PACKAGE));
             startActivity(i);
         } catch (Exception e) {
             finish();

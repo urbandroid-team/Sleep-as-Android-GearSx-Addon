@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="com.urbandroid.sleep" version="1.0.9">
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="com.urbandroid.sleep" version="1.0.13">
     <profile name="wearable"/>
     <ui-application appid="com.urbandroid.sleep.ui" exec="sleepasandroidnativeuiedc" multiple="false" nodisplay="false" taskmanage="true" type="capp">
         <label>Sleep</label>

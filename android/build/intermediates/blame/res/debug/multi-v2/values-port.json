@@ -1,18 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-21.0.2.aar/9e8b04dba86a661d55263c57a27203c4/res/values-port/values.xml",
+                    "source": "/home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/res/values-port/values-port.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "55",
-                        "endOffsets": "107"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

@@ -16,5 +16,7 @@ gboolean find_peers();
 gboolean request_service_connection(void);
 gboolean terminate_service_connection(void);
 gboolean send_data(char *message);
+gboolean get_tracking_started_from_watch();
+void 	 set_tracking_started_from_watch(gboolean value);
 
 #endif
