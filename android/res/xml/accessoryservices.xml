@@ -4,7 +4,7 @@
             id="/system/sleepassamsung"
             name="sleepassamsung"
             role="provider"
-            serviceImpl="com.urbandroid.sleep.addon.samsung.SleepAsAndroidProviderService"
+            serviceImpl="com.urbandroid.sleep.addon.generic.samsung.SleepAsAndroidProviderService"
             version="1.0"
             serviceLimit="ANY"
 	        serviceTimeout="10">

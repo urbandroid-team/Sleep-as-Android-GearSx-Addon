@@ -3,4 +3,6 @@
 
 #include <dlog.h>
 
+void watch_awake_callback();
+
 #endif /* __sleepasandroidnativeservice_H__ */

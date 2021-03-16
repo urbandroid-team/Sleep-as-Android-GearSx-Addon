@@ -2,11 +2,12 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.urbandroid.sleep.addon.generic.samsung"
-    android:versionCode="38"
-    android:versionName="1.11">
+    android:versionCode="45"
+    android:versionName="1.18">
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 
     <uses-permission android:name="com.samsung.accessory.permission.ACCESSORY_FRAMEWORK"/>
     <!--    <uses-permission android:name="com.samsung.wmanager.APP"/>-->
@@ -18,7 +19,9 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
 
         <!-- THIS ACTIVITY EXISTS ONLY FOR TESTING. COMMENT OUT BEFORE RELEASE -->
         <!--
@@ -35,7 +38,13 @@
                 </intent-filter>
             </activity>
             -->
-        <activity android:name="com.urbandroid.sleep.addon.samsung.MainActivity"
+
+        <activity android:name=".ErrorReportActivity"
+            android:exported="true">
+        </activity>
+
+
+        <activity android:name=".MainActivity"
             android:launchMode="singleInstance"
             android:configChanges="orientation|keyboardHidden|keyboard|navigation">
             <intent-filter>
@@ -47,10 +56,10 @@
         </activity>
 
 
-        <service android:name="com.urbandroid.sleep.addon.samsung.SleepAsAndroidProviderService">
+        <service android:name=".SleepAsAndroidProviderService">
         </service>
 
-        <receiver android:name="com.urbandroid.sleep.addon.samsung.SleepAsAndroidReceiver">
+        <receiver android:name=".SleepAsAndroidReceiver">
             <intent-filter>
                 <action android:name="com.urbandroid.sleep.watch.START_TRACKING"/>
                 <action android:name="com.urbandroid.sleep.watch.STOP_TRACKING"/>
@@ -82,7 +91,7 @@
         </receiver>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.urbandroid.sleep.addon.generic.samsung.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">

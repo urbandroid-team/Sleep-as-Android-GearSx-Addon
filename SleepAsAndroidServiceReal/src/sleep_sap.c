@@ -11,6 +11,9 @@
 
 static bool tracking_started_from_watch = false;
 
+// Version of application on phone (of the addon).
+int addon_version = -1;
+
 gboolean get_tracking_started_from_watch() {
 	return tracking_started_from_watch;
 }
@@ -131,7 +134,7 @@ static void on_service_connection_created(sap_peer_agent_h peer_agent,
 
 		if (tracking_started_from_watch == true) {
            	dlog_print(DLOG_INFO, TAG, "App control started from WATCH - sending STARTING delayed");
-			send_data("STARTING");  // TODO: This should be send only when started from watch, right?
+			send_data("STARTING");
 			tracking_started_from_watch = false;
 		}
 		// update_ui("Connection Established");
@@ -276,16 +279,24 @@ gboolean find_peers() {
 
 }
 
-gboolean send_data(char *message) {
-	int result;
-	if (priv_data.socket) {
-		dlog_print(DLOG_INFO, TAG, "Sending data %s", message);
-		result = sap_socket_send_data(priv_data.socket, SLEEP_CHANNELID, strlen(message), message);
-	} else {
-		// update_ui("No service Connection");
-		return FALSE;
+enum send_data_result send_data(char *message) {
+	if (!priv_data.socket) {
+		return SEND_DATA_ERROR;
 	}
-	return TRUE;
+
+	int sap_result;
+	sap_result = sap_socket_send_data(priv_data.socket, SLEEP_CHANNELID, strlen(message), message);
+	dlog_print(DLOG_INFO, TAG, "Sending data %s", message);
+
+	switch (sap_result) {
+		case SAP_SOCKET_RESULT_SUCCESS:
+			return SEND_DATA_SUCCESS;
+		case SAP_SOCKET_RESULT_BUFFER_FULL:
+			return SEND_DATA_BUFFER_FULL;
+		default:
+			return SEND_DATA_ERROR;
+	}
+
 
 }
 
@@ -400,10 +411,18 @@ gboolean agent_initialize() {
 void terminate_sap() {
 	sap_set_device_status_changed_cb(on_device_status_changed_empty, NULL);
 	sap_agent_destroy(priv_data.agent);
+
+   	dlog_print(DLOG_INFO, TAG, "App control started from WATCH RESET on TERMINATE");
+
 	tracking_started_from_watch = false;
 }
 
 void initialize_sap(data_received_cb data_received) {
+
+   	dlog_print(DLOG_INFO, TAG, "App control started from WATCH RESET on INIT");
+
+    tracking_started_from_watch = false;
+
 	data_received_callback = data_received;
 	sap_agent_h agent = NULL;
 

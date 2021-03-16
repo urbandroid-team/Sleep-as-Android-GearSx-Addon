@@ -1,4 +1,7 @@
 #include "sleepasandroidnativeuiedc.h"
+#include <app_manager.h>
+#include <device/display.h>
+#include <device/callback.h>
 
 typedef struct appdata {
 	Evas_Object* win;
@@ -10,7 +13,30 @@ typedef struct appdata {
 
 static appdata_s app_data = {0, };
 
+// Pause
+static int paused_till_ts = 0;
+
+Ecore_Timer* update_ui_timer;
+
 static void send_service_command(const char* command);
+
+static bool is_service_running() {
+	bool running;
+	if (app_manager_is_running("com.urbandroid.sleep.service", &running) == APP_MANAGER_ERROR_NONE) {
+		if (running) {
+			dlog_print(DLOG_INFO, LOG_TAG, "is_service_running TRUE");
+			return true;
+		} else {
+			dlog_print(DLOG_INFO, LOG_TAG, "is_service_running FALSE");
+			return false;
+		}
+	}
+	return false;
+}
+
+static void wake_up_screen() {
+	device_display_change_state(DISPLAY_STATE_NORMAL);
+}
 
 static void win_delete_request_cb(void *data, Evas_Object *obj, void *event_info) {
 	ui_app_exit();
@@ -62,6 +88,16 @@ void _dismiss_cb(void *data, Evas_Object *o, const char *emission, const char *s
 	send_service_command("dismiss");
 }
 
+static int pause_seconds_remaining() {
+	time_t now;
+	time(&now);
+	if (paused_till_ts == 0 || paused_till_ts < now)
+	{
+		return 0;
+	}
+	return paused_till_ts - now;
+}
+
 static void update_time(appdata_s *ad) {
 	time_t raw_time;
 	struct tm* time_info;
@@ -75,6 +111,20 @@ static void update_time(appdata_s *ad) {
 
 	edje_object_part_text_set(elm_layout_edje_get(ad->tracking_layout), "text_tracking_time", time);
 	edje_object_part_text_set(elm_layout_edje_get(ad->alarm_layout), "text_alarm_time", time);
+}
+
+static void update_pause_time(appdata_s *ad) {
+
+	dlog_print(DLOG_INFO, LOG_TAG, "Pause state: %d", pause_seconds_remaining());
+	if (pause_seconds_remaining() > 0) {
+		int minutes = pause_seconds_remaining() / 60;
+		// int seconds = pause_secs_remaining % 60;
+		char txt[100];
+		snprintf(txt, 100, "Paused (%d min)", minutes);
+		elm_object_part_text_set(app_data.tracking_layout, "text_tracking", txt);
+	} else {
+        elm_object_part_text_set(app_data.tracking_layout, "text_tracking", "Tracking");
+	}
 }
 
 static void create_base_gui(appdata_s *ad) {
@@ -118,10 +168,8 @@ static void create_base_gui(appdata_s *ad) {
 	elm_object_content_set(ad->conform, ad->starting_layout);
 	evas_object_show(ad->win);
 
-	dlog_print(DLOG_INFO, LOG_TAG, "UI created");
+	dlog_print(DLOG_INFO, LOG_TAG, "UI created ");
 }
-
-
 
 static void switch_to_layout(Evas_Object* layout) {
 	Evas_Object* current_layout = elm_object_content_get(app_data.conform);
@@ -136,69 +184,36 @@ static void switch_to_layout(Evas_Object* layout) {
 	}
 }
 
-static void app_control(app_control_h app_control, void *data) {
-	dlog_print(DLOG_INFO, LOG_TAG, "App control received");
-	char *caller_id = NULL;
-	if (app_control_get_caller(app_control, &caller_id) == APP_CONTROL_ERROR_NONE) {
-		dlog_print(DLOG_INFO, LOG_TAG, "Caller: %s", caller_id);
-		free(caller_id);
-	}
+static bool is_paused() {
+	return pause_seconds_remaining() > 0;
+}
 
-	char *action_value = NULL;
-    if (app_control_get_extra_data(app_control, "app_action", &action_value) == APP_CONTROL_ERROR_NONE) {
-    	dlog_print(DLOG_INFO, LOG_TAG, "App control action: %s", action_value);
-		if (action_value != NULL && strcmp(action_value, "stop") == 0) {
-			dlog_print(DLOG_INFO, LOG_TAG, "Stopping UI!");
-			free(action_value);
-			ui_app_exit();
-			return;
-		} else if (action_value != NULL && strcmp(action_value, "tracking_started") == 0) {
-			switch_to_layout(app_data.tracking_layout);
-		} else if (action_value != NULL && strcmp(action_value, "update_time") == 0) {
-			update_time(&app_data);
-		} else if (action_value != NULL && eina_str_has_prefix(action_value, "pause_state")) {
-			int pause_secs_remaining = 0;
-			unsigned int num_elements = 0;
-			char** split_data = eina_str_split_full(action_value, ":", 2, &num_elements);
-			if (num_elements == 2) {
-				pause_secs_remaining = atoi(split_data[1]);
-			}
-			if (num_elements > 0) {
-				free(split_data[0]);
-			}
-			free(split_data);
-			dlog_print(DLOG_INFO, LOG_TAG, "Pause state: %d", pause_secs_remaining);
-			if (pause_secs_remaining > 0) {
-				int minutes = pause_secs_remaining / 60;
-				int seconds = pause_secs_remaining % 60;
-				char txt[100];
-				snprintf(txt, 100, "Paused (%d:%02d)", minutes, seconds);
-				elm_object_part_text_set(app_data.tracking_layout, "text_tracking", txt);
-			} else {
-			    elm_object_part_text_set(app_data.tracking_layout, "text_tracking", "Tracking");
-			}
-		} else if (action_value != NULL && strcmp(action_value, "alarm_started") == 0) {
-			switch_to_layout(app_data.alarm_layout);
-			update_time(&app_data);
-		} else if (action_value != NULL && strcmp(action_value, "alarm_finished") == 0) {
-			switch_to_layout(app_data.tracking_layout);
-		} else {
-			dlog_print(DLOG_INFO, LOG_TAG, "Unsupported action! Doing nothing...");
-			free(action_value);
-		}
+static Eina_Bool update_ui_cb(void *data EINA_UNUSED) {
+	update_time(&app_data);
+	update_pause_time(&app_data);
+
+	return ECORE_CALLBACK_RENEW;
+}
+
+static void set_ui_update_timer(bool enable) {
+	if (enable) {
+		update_ui_timer = ecore_timer_add(60, update_ui_cb, NULL);
 	} else {
-		dlog_print(DLOG_ERROR, LOG_TAG, "Failed to get app control attribute");
+		ecore_timer_del(update_ui_timer);
 	}
 }
 
 static void app_pause(void *data) {
 	/* Take necessary actions when application becomes invisible. */
 	send_service_command("app_in_background");
+	set_ui_update_timer(false);
 }
 
 static void app_resume(void *data) {
 	/* Take necessary actions when application becomes visible. */
 	send_service_command("app_in_foreground");
+	update_time(&app_data);
+	set_ui_update_timer(true);
 }
 
 static void app_terminate(void *data) {
@@ -252,7 +267,60 @@ static void send_service_command(const char* command) {
 }
 
 static void launch_service() {
+	dlog_print(DLOG_INFO, LOG_TAG, "launch_service from UI");
 	send_service_command("start");
+}
+
+static void app_control(app_control_h app_control, void *data) {
+	dlog_print(DLOG_INFO, LOG_TAG, "App control received");
+	char *caller_id = NULL;
+	if (app_control_get_caller(app_control, &caller_id) == APP_CONTROL_ERROR_NONE) {
+		dlog_print(DLOG_INFO, LOG_TAG, "Caller: %s", caller_id);
+		free(caller_id);
+	}
+
+	char *action_value = NULL;
+    if (app_control_get_extra_data(app_control, "app_action", &action_value) == APP_CONTROL_ERROR_NONE) {
+    	dlog_print(DLOG_INFO, LOG_TAG, "App control action: %s", action_value);
+
+		if (action_value != NULL && strcmp(action_value, "stop") == 0) {
+			dlog_print(DLOG_INFO, LOG_TAG, "Stopping UI!");
+			free(action_value);
+			ui_app_exit();
+			return;
+		} else if (action_value != NULL && strcmp(action_value, "tracking_started") == 0) {
+			switch_to_layout(app_data.tracking_layout);
+		} else if (action_value != NULL && eina_str_has_prefix(action_value, "paused_till")) {
+			// getting "paused_till:12345"
+			unsigned int num_elements = 0;
+			char** split_data = eina_str_split_full(action_value, ":", 2, &num_elements);
+			if (num_elements == 2) {
+				paused_till_ts = atoi(split_data[1]);
+			}
+			if (num_elements > 0) {
+				free(split_data[0]);
+			}
+			free(split_data);
+			dlog_print(DLOG_INFO, LOG_TAG, "Pause state: %d", paused_till_ts);
+
+            update_pause_time(&app_data);
+
+
+		} else if (action_value != NULL && strcmp(action_value, "alarm_started") == 0) {
+			switch_to_layout(app_data.alarm_layout);
+			update_time(&app_data);
+			wake_up_screen();
+		} else if (action_value != NULL && strcmp(action_value, "alarm_finished") == 0) {
+			switch_to_layout(app_data.tracking_layout);
+		} else {
+			dlog_print(DLOG_INFO, LOG_TAG, "Unsupported action! Doing nothing...");
+			send_service_command(action_value);
+			free(action_value);
+		}
+	} else {
+		dlog_print(DLOG_ERROR, LOG_TAG, "Failed to get app control attribute");
+		launch_service();
+	}
 }
 
 static bool app_create(void *data) {
@@ -263,7 +331,6 @@ static bool app_create(void *data) {
 	appdata_s *ad = data;
 
 	create_base_gui(ad);
-	launch_service();
 	return true;
 }
 

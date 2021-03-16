@@ -1,294 +1,293 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed7fa59f11985b498fc4b97d10c90bf2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f027bfde21b427ec6ccff954d66c05da/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6daf74f0ad5e9048ab1fc8dd1b691524/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89ce256ce3ed27cd8c5e1cb961aeebae/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a15b2ef86cbc7e77fb1d2fa793681883/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e0af30885d8d0ef17e5298655f5b412c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/79037a76876037c1df8ddb5ef7c48ec0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/09c85676d20ac4cadcb3d243fecc8499/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b8a0b5b5b2f7cd6fa1365e33dca092f1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0830f7965d9bf0eb0c0b2533a89595ed/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/08bac13cb53c05af2398e52bdf634c13/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8180764f7c6f332615566cde209a277d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/feb4dc7c2a25910fc6be3767ebbf9c7d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:17:1-24:12
-MERGED from [com.urbandroid:common:1.14] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.14.aar/fbb90ef33e4945a5689c0c14c442c4f0/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/33c5ab4e4cddcac0701deee74f712839/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6bf984ba0e9011dc373f95fc38663331/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f89ba6b0dbf85b9972b5e18edfd65541/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0c7432e6807af228281cb9a5dcf9cd48/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/55d8c6de578c5c6c43cbd715c165a5bb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b70d73a51490f091b810710175a0abe3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/73e3d38061c9de3168d57c74cf0ce2a8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/38675aa315a971c1d2eafb9a8bfa392e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7b21f8912261c09b0a9bae44ba6f28d/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/150751bbbd9d56e7dd626e069f0a5a94/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d7701a0c02b625b3abc0e446b768dff4/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-108:12
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/41b4a60c2f5c262f07fc1c3c072ad02d/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/06f8e37be1892dc1235f0fd195c95bb3/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.urbandroid:common:1.26] /home/artaud/.gradle/caches/transforms-2/files-2.1/c3f85445d52b5d7994a6b578328d6ff9/jetified-common-1.26/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/9ab4a7849caea1fb5915de4c260a3f5d/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/682acfe647556007911d9bb044d13f51/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/1ade3cf8f19e4c7604500a7efc238315/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/e24b1be08b5b69a395c0b4d6a96181e5/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/344337274bc21aec4947a5e8a76969a8/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/8b5a5585e7010066a337158d00b21246/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de8b5a84b2a0e1d6cbb062932340dc44/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/10b535fbff34708785fcc046112f0b50/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/ad564ea9852e8b73ec0a5cb2ad5b2dda/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de823e4e1f948d011125af5ea94c9436/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/b70bab439b2bdf5345a6d0dc7ade59a4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/144ae24217696a50261cf8daed077125/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/39cea3bb569bb5fb3b954afe388051c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/2da1ec38ca69b90fdf5bc4611fbddf35/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/eb0a5dd042952bcaa645a95f4c297a62/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/c950abec5e5c1a1b37cbc55b697f4bfa/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/964c2379c8aff5c70fad1e5b68a1417b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/6da5adb3e48940050bed3a3b32abe32a/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:1-117:12
 	package
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:4:5-57
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:4:5-57
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:6:5-31
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:6:5-31
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:11-69
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:5:5-29
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:5:5-29
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:8:5-67
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:8:22-65
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:8:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:9:5-73
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:9:5-73
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:9:22-71
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:9:22-71
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:10:22-74
 uses-permission#com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:11:5-91
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:12:5-91
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:11:22-89
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:12:22-89
 uses-permission#com.samsung.wmanager.ENABLE_NOTIFICATION
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:13:5-79
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:13:22-77
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:14:22-77
 uses-permission#com.samsung.WATCH_APP_TYPE.Companion
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:14:5-75
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:15:5-75
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:14:22-73
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:15:22-73
 uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:15:5-16:90
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:16:5-17:90
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:15:22-123
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:16:22-123
 application
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:18:5-107:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:22:5-94
-MERGED from [com.urbandroid:common:1.14] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.14.aar/fbb90ef33e4945a5689c0c14c442c4f0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.urbandroid:common:1.14] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.14.aar/fbb90ef33e4945a5689c0c14c442c4f0/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/33c5ab4e4cddcac0701deee74f712839/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/33c5ab4e4cddcac0701deee74f712839/AndroidManifest.xml:22:5-23:19
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:19:5-116:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/41b4a60c2f5c262f07fc1c3c072ad02d/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/41b4a60c2f5c262f07fc1c3c072ad02d/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.urbandroid:common:1.26] /home/artaud/.gradle/caches/transforms-2/files-2.1/c3f85445d52b5d7994a6b578328d6ff9/jetified-common-1.26/AndroidManifest.xml:11:5-12:19
+MERGED from [com.urbandroid:common:1.26] /home/artaud/.gradle/caches/transforms-2/files-2.1/c3f85445d52b5d7994a6b578328d6ff9/jetified-common-1.26/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/b70bab439b2bdf5345a6d0dc7ade59a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/b70bab439b2bdf5345a6d0dc7ade59a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:21:9-41
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:20:9-45
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:21:9-45
 	android:allowBackup
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:19:9-35
-activity#com.urbandroid.sleep.addon.samsung.MainActivity
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:38:9-47:20
-	android:launchMode
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:39:13-48
-	android:configChanges
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:40:13-83
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:38:19-81
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.INFO
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:41:13-46:29
-action#android.intent.action.MAIN
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:42:17-68
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:42:25-66
-category#android.intent.category.DEFAULT
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:43:17-75
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:43:27-73
-category#android.intent.category.INFO
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:44:17-72
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:44:27-70
-service#com.urbandroid.sleep.addon.samsung.SleepAsAndroidProviderService
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:50:9-51:19
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:50:18-97
-receiver#com.urbandroid.sleep.addon.samsung.SleepAsAndroidReceiver
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:53:9-68:20
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:53:19-91
-intent-filter#action:name:com.urbandroid.sleep.addon.samsung.STOP_SELF+action:name:com.urbandroid.sleep.watch.CHECK_CONNECTED+action:name:com.urbandroid.sleep.watch.HINT+action:name:com.urbandroid.sleep.watch.REPORT+action:name:com.urbandroid.sleep.watch.SET_BATCH_SIZE+action:name:com.urbandroid.sleep.watch.SET_PAUSE+action:name:com.urbandroid.sleep.watch.SET_SUSPENDED+action:name:com.urbandroid.sleep.watch.START_ALARM+action:name:com.urbandroid.sleep.watch.START_TRACKING+action:name:com.urbandroid.sleep.watch.STOP_ALARM+action:name:com.urbandroid.sleep.watch.STOP_TRACKING+action:name:com.urbandroid.sleep.watch.UPDATE_ALARM
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:54:13-67:29
-action#com.urbandroid.sleep.watch.START_TRACKING
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:55:17-83
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:55:25-81
-action#com.urbandroid.sleep.watch.STOP_TRACKING
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:56:17-82
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:56:25-80
-action#com.urbandroid.sleep.watch.SET_PAUSE
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:57:17-78
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:57:25-76
-action#com.urbandroid.sleep.watch.SET_BATCH_SIZE
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:58:17-83
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:58:25-81
-action#com.urbandroid.sleep.watch.SET_SUSPENDED
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:59:17-82
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:59:25-80
-action#com.urbandroid.sleep.watch.START_ALARM
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:60:17-80
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:60:25-78
-action#com.urbandroid.sleep.watch.STOP_ALARM
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:61:17-79
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:61:25-77
-action#com.urbandroid.sleep.watch.HINT
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:62:17-73
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:62:25-71
-action#com.urbandroid.sleep.watch.UPDATE_ALARM
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:63:17-81
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:63:25-79
-action#com.urbandroid.sleep.watch.CHECK_CONNECTED
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:64:17-84
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:64:25-82
-action#com.urbandroid.sleep.watch.REPORT
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:65:17-75
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:65:25-73
-action#com.urbandroid.sleep.addon.samsung.STOP_SELF
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:66:17-86
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:66:25-84
-receiver#com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:70:9-75:20
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:70:19-112
-intent-filter#action:name:android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND+action:name:com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:71:13-74:29
-action#android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:72:17-107
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:72:25-105
-action#com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:73:17-100
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:73:25-97
-receiver#com.samsung.android.sdk.accessory.RegisterUponInstallReceiver
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:77:9-82:20
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:77:19-95
-intent-filter#action:name:android.accessory.device.action.REGISTER_AFTER_INSTALL+action:name:com.samsung.accessory.action.REGISTER_AGENT
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:78:13-81:29
-action#android.accessory.device.action.REGISTER_AFTER_INSTALL
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:79:17-96
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:79:25-94
-action#com.samsung.accessory.action.REGISTER_AGENT
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:80:17-86
-	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:80:25-83
-provider#android.support.v4.content.FileProvider
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:84:9-93:20
-	android:grantUriPermissions
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:88:13-47
-	android:authorities
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:86:13-90
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:23:9-40
+activity#com.urbandroid.sleep.addon.generic.samsung.ErrorReportActivity
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:42:9-44:20
 	android:exported
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:87:13-37
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:85:13-67
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:42:19-54
+activity#com.urbandroid.sleep.addon.generic.samsung.MainActivity
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:47:9-56:20
+	android:launchMode
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:48:13-48
+	android:configChanges
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:49:13-83
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:47:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.INFO
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:50:13-55:29
+action#android.intent.action.MAIN
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:51:17-68
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:51:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:52:17-75
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:52:27-73
+category#android.intent.category.INFO
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:53:17-72
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:53:27-70
+service#com.urbandroid.sleep.addon.generic.samsung.SleepAsAndroidProviderService
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:59:9-60:19
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:59:18-63
+receiver#com.urbandroid.sleep.addon.generic.samsung.SleepAsAndroidReceiver
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:62:9-77:20
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:62:19-57
+intent-filter#action:name:com.urbandroid.sleep.addon.samsung.STOP_SELF+action:name:com.urbandroid.sleep.watch.CHECK_CONNECTED+action:name:com.urbandroid.sleep.watch.HINT+action:name:com.urbandroid.sleep.watch.REPORT+action:name:com.urbandroid.sleep.watch.SET_BATCH_SIZE+action:name:com.urbandroid.sleep.watch.SET_PAUSE+action:name:com.urbandroid.sleep.watch.SET_SUSPENDED+action:name:com.urbandroid.sleep.watch.START_ALARM+action:name:com.urbandroid.sleep.watch.START_TRACKING+action:name:com.urbandroid.sleep.watch.STOP_ALARM+action:name:com.urbandroid.sleep.watch.STOP_TRACKING+action:name:com.urbandroid.sleep.watch.UPDATE_ALARM
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:63:13-76:29
+action#com.urbandroid.sleep.watch.START_TRACKING
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:64:17-83
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:64:25-81
+action#com.urbandroid.sleep.watch.STOP_TRACKING
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:65:17-82
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:65:25-80
+action#com.urbandroid.sleep.watch.SET_PAUSE
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:66:17-78
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:66:25-76
+action#com.urbandroid.sleep.watch.SET_BATCH_SIZE
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:67:17-83
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:67:25-81
+action#com.urbandroid.sleep.watch.SET_SUSPENDED
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:68:17-82
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:68:25-80
+action#com.urbandroid.sleep.watch.START_ALARM
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:69:17-80
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:69:25-78
+action#com.urbandroid.sleep.watch.STOP_ALARM
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:70:17-79
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:70:25-77
+action#com.urbandroid.sleep.watch.HINT
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:71:17-73
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:71:25-71
+action#com.urbandroid.sleep.watch.UPDATE_ALARM
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:72:17-81
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:72:25-79
+action#com.urbandroid.sleep.watch.CHECK_CONNECTED
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:73:17-84
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:73:25-82
+action#com.urbandroid.sleep.watch.REPORT
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:74:17-75
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:74:25-73
+action#com.urbandroid.sleep.addon.samsung.STOP_SELF
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:75:17-86
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:75:25-84
+receiver#com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:79:9-84:20
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:79:19-112
+intent-filter#action:name:android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND+action:name:com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:80:13-83:29
+action#android.accessory.service.action.ACCESSORY_SERVICE_CONNECTION_IND
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:81:17-107
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:81:25-105
+action#com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:82:17-100
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:82:25-97
+receiver#com.samsung.android.sdk.accessory.RegisterUponInstallReceiver
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:86:9-91:20
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:86:19-95
+intent-filter#action:name:android.accessory.device.action.REGISTER_AFTER_INSTALL+action:name:com.samsung.accessory.action.REGISTER_AGENT
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:87:13-90:29
+action#android.accessory.device.action.REGISTER_AFTER_INSTALL
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:88:17-96
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:88:25-94
+action#com.samsung.accessory.action.REGISTER_AGENT
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:89:17-86
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:89:25-83
+provider#androidx.core.content.FileProvider
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:93:9-102:20
+	android:grantUriPermissions
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:97:13-47
+	android:authorities
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:95:13-90
+	android:exported
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:94:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:90:13-92:56
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:99:13-101:56
 	android:resource
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:92:17-53
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:101:17-53
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:91:17-67
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:100:17-67
 meta-data#AccessoryServicesLocation
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:95:9-97:61
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:104:9-106:61
 	android:value
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:97:13-59
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:106:13-59
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:96:13-53
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:105:13-53
 meta-data#GearAppType
-ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:98:9-69
+ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:107:9-69
 	android:value
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:98:47-66
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:107:47-66
 	android:name
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:98:20-46
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml:107:20-46
 uses-sdk
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7025fcec4740e8ac9585f135c6b8a11a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed7fa59f11985b498fc4b97d10c90bf2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ed7fa59f11985b498fc4b97d10c90bf2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f027bfde21b427ec6ccff954d66c05da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f027bfde21b427ec6ccff954d66c05da/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6daf74f0ad5e9048ab1fc8dd1b691524/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6daf74f0ad5e9048ab1fc8dd1b691524/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89ce256ce3ed27cd8c5e1cb961aeebae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/89ce256ce3ed27cd8c5e1cb961aeebae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a15b2ef86cbc7e77fb1d2fa793681883/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/a15b2ef86cbc7e77fb1d2fa793681883/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e0af30885d8d0ef17e5298655f5b412c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/e0af30885d8d0ef17e5298655f5b412c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/79037a76876037c1df8ddb5ef7c48ec0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/79037a76876037c1df8ddb5ef7c48ec0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/09c85676d20ac4cadcb3d243fecc8499/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/09c85676d20ac4cadcb3d243fecc8499/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b8a0b5b5b2f7cd6fa1365e33dca092f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b8a0b5b5b2f7cd6fa1365e33dca092f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0830f7965d9bf0eb0c0b2533a89595ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0830f7965d9bf0eb0c0b2533a89595ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/08bac13cb53c05af2398e52bdf634c13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/08bac13cb53c05af2398e52bdf634c13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8180764f7c6f332615566cde209a277d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/8180764f7c6f332615566cde209a277d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/feb4dc7c2a25910fc6be3767ebbf9c7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/feb4dc7c2a25910fc6be3767ebbf9c7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3bc5ee34788cdf84fd81ff10ec592fd2/AndroidManifest.xml:20:5-44
-MERGED from [com.urbandroid:common:1.14] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.14.aar/fbb90ef33e4945a5689c0c14c442c4f0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.urbandroid:common:1.14] /home/artaud/.gradle/caches/transforms-1/files-1.1/common-1.14.aar/fbb90ef33e4945a5689c0c14c442c4f0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/33c5ab4e4cddcac0701deee74f712839/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/33c5ab4e4cddcac0701deee74f712839/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6bf984ba0e9011dc373f95fc38663331/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6bf984ba0e9011dc373f95fc38663331/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f89ba6b0dbf85b9972b5e18edfd65541/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f89ba6b0dbf85b9972b5e18edfd65541/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0c7432e6807af228281cb9a5dcf9cd48/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/0c7432e6807af228281cb9a5dcf9cd48/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/55d8c6de578c5c6c43cbd715c165a5bb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/55d8c6de578c5c6c43cbd715c165a5bb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b70d73a51490f091b810710175a0abe3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b70d73a51490f091b810710175a0abe3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/73e3d38061c9de3168d57c74cf0ce2a8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/73e3d38061c9de3168d57c74cf0ce2a8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/38675aa315a971c1d2eafb9a8bfa392e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/38675aa315a971c1d2eafb9a8bfa392e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7b21f8912261c09b0a9bae44ba6f28d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f7b21f8912261c09b0a9bae44ba6f28d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/150751bbbd9d56e7dd626e069f0a5a94/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/artaud/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/150751bbbd9d56e7dd626e069f0a5a94/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d7701a0c02b625b3abc0e446b768dff4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/artaud/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d7701a0c02b625b3abc0e446b768dff4/AndroidManifest.xml:20:5-44
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/41b4a60c2f5c262f07fc1c3c072ad02d/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/41b4a60c2f5c262f07fc1c3c072ad02d/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/06f8e37be1892dc1235f0fd195c95bb3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/06f8e37be1892dc1235f0fd195c95bb3/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.urbandroid:common:1.26] /home/artaud/.gradle/caches/transforms-2/files-2.1/c3f85445d52b5d7994a6b578328d6ff9/jetified-common-1.26/AndroidManifest.xml:7:5-9:41
+MERGED from [com.urbandroid:common:1.26] /home/artaud/.gradle/caches/transforms-2/files-2.1/c3f85445d52b5d7994a6b578328d6ff9/jetified-common-1.26/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/9ab4a7849caea1fb5915de4c260a3f5d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/9ab4a7849caea1fb5915de4c260a3f5d/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/682acfe647556007911d9bb044d13f51/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/682acfe647556007911d9bb044d13f51/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/1ade3cf8f19e4c7604500a7efc238315/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/1ade3cf8f19e4c7604500a7efc238315/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/e24b1be08b5b69a395c0b4d6a96181e5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/e24b1be08b5b69a395c0b4d6a96181e5/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/344337274bc21aec4947a5e8a76969a8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/344337274bc21aec4947a5e8a76969a8/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/8b5a5585e7010066a337158d00b21246/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/8b5a5585e7010066a337158d00b21246/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de8b5a84b2a0e1d6cbb062932340dc44/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de8b5a84b2a0e1d6cbb062932340dc44/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/10b535fbff34708785fcc046112f0b50/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/10b535fbff34708785fcc046112f0b50/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/ad564ea9852e8b73ec0a5cb2ad5b2dda/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/ad564ea9852e8b73ec0a5cb2ad5b2dda/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de823e4e1f948d011125af5ea94c9436/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/de823e4e1f948d011125af5ea94c9436/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/artaud/.gradle/caches/transforms-2/files-2.1/b8fb69267fe7d61d36fb9b618b197778/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/b70bab439b2bdf5345a6d0dc7ade59a4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/b70bab439b2bdf5345a6d0dc7ade59a4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/144ae24217696a50261cf8daed077125/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/144ae24217696a50261cf8daed077125/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/39cea3bb569bb5fb3b954afe388051c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/39cea3bb569bb5fb3b954afe388051c6/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/2da1ec38ca69b90fdf5bc4611fbddf35/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/2da1ec38ca69b90fdf5bc4611fbddf35/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/eb0a5dd042952bcaa645a95f4c297a62/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/eb0a5dd042952bcaa645a95f4c297a62/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/c950abec5e5c1a1b37cbc55b697f4bfa/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/c950abec5e5c1a1b37cbc55b697f4bfa/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/964c2379c8aff5c70fad1e5b68a1417b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/964c2379c8aff5c70fad1e5b68a1417b/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/6da5adb3e48940050bed3a3b32abe32a/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/artaud/.gradle/caches/transforms-2/files-2.1/6da5adb3e48940050bed3a3b32abe32a/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		ADDED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
-		INJECTED from /home/artaud/prog/urbandroid/source/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		ADDED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
+		INJECTED from /home/artaud/Projects/urbandroid/Sleep/SleepAsSamsung/SleepAsSamsung-android/AndroidManifest.xml
